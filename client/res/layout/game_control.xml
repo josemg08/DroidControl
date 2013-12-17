@@ -52,7 +52,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/ArrowLeftButton"
                     android:layout_weight="1" android:layout_marginTop="60dp" android:layout_marginBottom="60dp"
-                    android:background="@drawable/black_left_button_selector" android:onClick="left"/>
+                    android:background="@drawable/black_arrow_left_selector" android:onClick="left"/>
             <LinearLayout
                     android:orientation="vertical"
                     android:layout_width="fill_parent"
@@ -92,14 +92,14 @@
                     android:layout_height="fill_parent"
                     android:text="Options"
                     android:id="@+id/OptionsButton"
-                    android:layout_weight="1" android:background="@drawable/black_button_selector"/>
+                    android:layout_weight="1" android:background="@drawable/black_square_button_selector"/>
             <Button
                     style="@style/button_black"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:text="Pause"
                     android:id="@+id/PauseButton"
-                    android:layout_weight="1" android:background="@drawable/black_button_selector"/>
+                    android:layout_weight="1" android:background="@drawable/black_square_button_selector"/>
         </LinearLayout>
 
         <!--Game Buttons ABCD-->
@@ -116,7 +116,7 @@
                     android:text="A"
                     android:id="@+id/GameAButton"
                     android:layout_weight="1" android:layout_marginBottom="60dp" android:layout_marginTop="60dp"
-                    android:background="@drawable/black_small_button_selector"/>
+                    android:background="@drawable/black_button_selector"/>
             <LinearLayout
                     android:orientation="vertical"
                     android:layout_width="fill_parent"
@@ -128,14 +128,14 @@
                         android:layout_height="wrap_content"
                         android:text="B"
                         android:id="@+id/GameBButton"
-                        android:layout_weight="1" android:background="@drawable/black_small_button_selector"/>
+                        android:layout_weight="1" android:background="@drawable/black_button_selector"/>
                 <Button
                         style="@style/button_black"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:text="C"
                         android:id="@+id/GameCButton"
-                        android:layout_weight="1" android:background="@drawable/black_small_button_selector"/>
+                        android:layout_weight="1" android:background="@drawable/black_button_selector"/>
             </LinearLayout>
             <Button
                     style="@style/button_black"
@@ -144,7 +144,7 @@
                     android:text="D"
                     android:id="@+id/GameDButton"
                     android:layout_weight="1" android:layout_marginTop="60dp" android:layout_marginBottom="60dp"
-                    android:background="@drawable/black_small_button_selector"/>
+                    android:background="@drawable/black_button_selector"/>
         </LinearLayout>
 
     </LinearLayout>

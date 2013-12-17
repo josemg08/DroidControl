@@ -20,6 +20,6 @@
             android:layout_height="37dp"
             android:text="Ready!"
             android:id="@+id/toastButton" android:onClick="newName"
-            android:background="@drawable/black_button_selector" style="@style/button_black"
+            android:background="@drawable/black_square_button_selector" style="@style/button_black"
             android:layout_marginLeft="17dp"/>
 </LinearLayout>

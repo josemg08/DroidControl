@@ -50,7 +50,7 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1" android:weightSum="2" android:layout_margin="10dp">
                 <ImageButton
-                        android:background="@drawable/black_play_media_selector"
+                        android:background="@drawable/black_arrow_rigth_square_selector"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:id="@+id/play"

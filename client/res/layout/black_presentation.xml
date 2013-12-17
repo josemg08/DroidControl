@@ -65,7 +65,7 @@
                     android:adjustViewBounds="false" android:clickable="false" android:focusable="false"
                     android:cropToPadding="false" android:focusableInTouchMode="false" android:layout_gravity="left|center_vertical"
                     android:layout_weight="1"
-                    android:layout_marginRight="10dp" android:background="@drawable/black_back_button_selector"/>
+                    android:layout_marginRight="10dp" android:background="@drawable/black_arrow_left_square_selector"/>
                 <Button
                     style="@style/button_black"
                     android:layout_width="fill_parent"
@@ -74,7 +74,7 @@
                     android:adjustViewBounds="false" android:clickable="false" android:focusable="false"
                     android:cropToPadding="false" android:focusableInTouchMode="false" android:layout_gravity="left|center_vertical"
                     android:layout_weight="1"
-                    android:layout_marginLeft="10dp" android:background="@drawable/black_button_selector"
+                    android:layout_marginLeft="10dp" android:background="@drawable/black_square_button_selector"
                     android:text="Full screen" android:onClick="fullScreen"/>
             </LinearLayout>
             <LinearLayout
@@ -91,7 +91,7 @@
                         android:adjustViewBounds="false" android:clickable="false" android:focusable="false"
                         android:cropToPadding="false" android:focusableInTouchMode="false" android:layout_gravity="left|center_vertical"
                         android:layout_weight="1"
-                        android:layout_marginRight="10dp" android:background="@drawable/black_button_selector"
+                        android:layout_marginRight="10dp" android:background="@drawable/black_square_button_selector"
                         android:text="Finish" android:onClick="esc"/>
                 <Button
                         style="@style/button_black"
@@ -101,7 +101,7 @@
                         android:adjustViewBounds="false" android:clickable="false" android:focusable="false"
                         android:cropToPadding="false" android:focusableInTouchMode="false" android:layout_gravity="left|center_vertical"
                         android:layout_weight="1"
-                        android:layout_marginLeft="10dp" android:background="@drawable/black_button_selector"
+                        android:layout_marginLeft="10dp" android:background="@drawable/black_square_button_selector"
                         android:text="Timer"/>
             </LinearLayout>
         </LinearLayout>
@@ -119,7 +119,7 @@
                 android:onClick="changeSlide"
                 android:id="@+id/arrowRightButton"
                 android:background="@android:color/transparent"
-                android:src="@drawable/black_play_media_selector"
+                android:src="@drawable/black_arrow_rigth_square_selector"
                 android:scaleType="fitCenter"
                 android:layout_weight="1"/>
             <Chronometer
