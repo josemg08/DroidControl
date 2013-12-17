@@ -35,27 +35,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c67eb80e-7410-4826-8527-f0495b114f54" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout/green_custom2x3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout/green_custom3x4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout/green_game_control.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout/green_media.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout-land/green_media.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout/green_mousepad.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout/green_presentation.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout/green_skin_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Custom.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Custom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/GameControl.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/GameControl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Media.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Media.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/MousePad.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/MousePad.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/Options.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/Options.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Presentation.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Presentation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/SkinSelector.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/SkinSelector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/res/values/styles.xml" afterPath="$PROJECT_DIR$/client/res/values/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_down_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_left_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_left_square.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_left_square_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_rigth.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_rigth_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_rigth_square.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_rigth_square_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_up_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_back_media.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_back_media_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_button_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_button_square.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_button_square_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_forward_media.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_forward_media_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_full_screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_full_screen_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_pause.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_pause_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_button_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_game.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_game_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_media.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_media_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_presentation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_presentation_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_stop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_stop_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_vol_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_vol_down_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_vol_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_vol_up_press.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="droidremote.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387292250087" ignored="false" />
+    <file path="/Dummy.txt" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387295609987" ignored="false" />
     <file path="/fragment.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1386726181606" ignored="false" />
     <file path="/presentation.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1378068271929" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1382297558986" ignored="false" />
@@ -202,26 +224,7 @@
     <favorites_list name="droidremote" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="SkinSelector.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/SkinSelector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="49" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Custom.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Custom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="54" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.9148936">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -424,6 +427,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="droidremote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -476,8 +497,8 @@
       <recent name="C:\Users\Adela\Desktop\droidremote\server\src\com\josetomas\server\XMLMessage\KeyboardMessage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Adela\Desktop\droidremote\client\res\layout" />
       <recent name="C:\Users\Adela\Desktop\droidremote\client\res\drawable" />
+      <recent name="C:\Users\Adela\Desktop\droidremote\client\res\layout" />
       <recent name="C:\Users\Adela\Desktop\droidremote\client" />
     </key>
   </component>
@@ -695,7 +716,11 @@
       <created>1387292296065</created>
       <updated>1387292296065</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Green skin can now be selected.">
+      <created>1387295711374</created>
+      <updated>1387295711374</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -720,7 +745,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="616" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32617587" sideWeight="0.67102396" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32310838" sideWeight="0.67102396" order="2" side_tool="false" content_ui="tabs" />
@@ -739,8 +764,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24948876" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924336" sideWeight="0.67102396" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39959016" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25051126" sideWeight="0.67102396" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32897604" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25051126" sideWeight="0.67102396" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32897604" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -790,7 +815,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Green skin." />
+    <option name="LAST_COMMIT_MESSAGE" value="Green skin can now be selected." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -810,6 +835,7 @@
     <MESSAGE value="Red theme ready to use." />
     <MESSAGE value="Chronometer in presentation activity." />
     <MESSAGE value="Green skin." />
+    <MESSAGE value="Green skin can now be selected." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -941,16 +967,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/SkinSelector.java">
+    <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Custom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="49" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0">
+        <state line="37" column="54" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.9148936">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Custom.java">
+    <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/SkinSelector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="54" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.9148936">
+        <state line="26" column="49" selection-start="850" selection-end="850" vertical-scroll-proportion="0.5921986">
           <folding />
         </state>
       </provider>
