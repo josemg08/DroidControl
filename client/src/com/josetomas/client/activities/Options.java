@@ -86,10 +86,11 @@ public class Options extends AbstractNetworkActivity {
 
         //Code for the spinners
         //Color chooser spinner
-        colorOptions = new String[3];
+        colorOptions = new String[4];
         colorOptions[0] = "Black";
         colorOptions[1] = "Blue";
         colorOptions[2] = "Red";
+        colorOptions[3] = "Green";
         spinnerColor = (Spinner) findViewById(R.id.chooseColor);
         ArrayAdapter adapter = new ArrayAdapter(this,
                 android.R.layout.simple_spinner_item, colorOptions);

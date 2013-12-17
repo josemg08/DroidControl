@@ -20,17 +20,25 @@ public class Custom extends ToolbarActivities{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         preferences = getSharedPreferences(pref, 0);
+        String color = preferences.getString("colorApp", "Black");
+
         if(preferences.getString("gridSize", "2 x 3").equals("2 x 3")){
-            if(preferences.getString("colorApp", "Black").equals("Black")){
+            if(color.equals("Black")){
                 setContentView(R.layout.black_custom2x3);
+            }
+            else if(color.equals("Green")){
+                setContentView(R.layout.green_custom2x3);
             }
             else{
                 setContentView(R.layout.red_custom2x3);
             }
         }
         else{
-            if(preferences.getString("colorApp", "Black").equals("Black")){
+            if(color.equals("Black")){
                 setContentView(R.layout.black_custom3x4);
+            }
+            else if(color.equals("Green")){
+                setContentView(R.layout.green_custom3x4);
             }
             else{
                 setContentView(R.layout.red_custom3x4);

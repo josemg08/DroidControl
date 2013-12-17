@@ -18,8 +18,13 @@ public class MousePad extends ToolbarActivities {
         super.onCreate(savedInstanceState);
 
         preferences = getSharedPreferences(pref, 0);
-        if(preferences.getString("colorApp", "Black").equals("Black")){
+        String color = preferences.getString("colorApp", "Black");
+
+        if(color.equals("Black")){
             setContentView(R.layout.black_mousepad);
+        }
+        else if(color.equals("Green")){
+            setContentView(R.layout.green_mousepad);
         }
         else{
             setContentView(R.layout.red_mousepad);

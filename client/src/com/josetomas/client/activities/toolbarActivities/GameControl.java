@@ -25,8 +25,13 @@ public class GameControl extends ToolbarActivities implements SensorEventListene
         super.onCreate(savedInstanceState);
 
         preferences = getSharedPreferences(pref, 0);
-        if(preferences.getString("colorApp", "Black").equals("Black")){
+        String color = preferences.getString("colorApp", "Black");
+
+        if(color.equals("Black")){
             setContentView(R.layout.black_game_control);
+        }
+        else if(color.equals("Green")){
+            setContentView(R.layout.green_game_control);
         }
         else{
             setContentView(R.layout.red_game_control);
