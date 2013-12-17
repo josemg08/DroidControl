@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change button name"
+            android:id="@+id/textView"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="add new name"
+            android:id="@+id/editText"/>
+    <Button
+            android:layout_width="110dp"
+            android:layout_height="37dp"
+            android:text="Ready!"
+            android:id="@+id/toastButton" android:onClick="newName"
+            android:background="@drawable/black_button_selector" style="@style/button_black"
+            android:layout_marginLeft="17dp"/>
+</LinearLayout>

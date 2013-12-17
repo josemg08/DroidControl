@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.josetomas.client"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="10"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:theme="@style/app_style"
+                 android:icon="@drawable/icon_1">
+            <activity android:name=".activities.Initial_page" android:configChanges="orientation"
+                      android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    <activity android:name=".activities.MClient"
+              android:label="@string/app_name"/>
+        <service android:name=".network.SocketService"/>
+        <activity android:name=".activities.toolbarActivities.SkinSelector"
+                  android:label="@string/skins"
+                  android:noHistory="true"
+                  android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".activities.Options"
+                  android:label="@string/options"
+                  android:noHistory="true"
+                  android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".activities.ValidatePassword"
+                  android:label="@string/passValidateTitle"
+                  android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".activities.toolbarActivities.MousePad" />
+        <activity android:name=".activities.ChangeName"
+                  android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".activities.toolbarActivities.Custom" />
+
+        <activity android:name=".activities.toolbarActivities.Media"/>
+        <activity android:name=".activities.toolbarActivities.Presentation" android:configChanges="orientation"
+                  android:screenOrientation="landscape"/>
+        <activity android:name=".activities.toolbarActivities.GameControl" android:configChanges="orientation"
+                  android:screenOrientation="landscape"/>
+    </application>
+</manifest> 

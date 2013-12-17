@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:id="@+id/touchPadLayout">
+
+    <!--Toolbar-->
+    <LinearLayout
+            android:orientation="horizontal" android:layout_gravity="top"
+            android:layout_width="fill_parent" android:layout_height="50dp"
+            android:weightSum="4">
+        <ImageButton
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:id="@+id/trackpad"
+                android:layout_weight="1" android:layout_gravity="center_horizontal|top"
+                android:background="@drawable/toolbar_mouse_selector"/>
+        <ImageButton
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:id="@+id/keyboard"
+                android:layout_weight="1" android:layout_gravity="center_horizontal|top"
+                android:background="@drawable/toolbar_keyboard_selector" android:onClick="showKeyboard"/>
+        <Button
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:text="Skins" android:id="@+id/button"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_weight="1" android:onClick="goToSkinSelector"
+                android:background="@drawable/toolbar_button_selector" style="@style/toolbar_button"/>
+        <Button
+                style="@style/toolbar_button"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:text="Options" android:id="@+id/options"
+                android:layout_weight="1" android:onClick="goToOptions"/>
+    </LinearLayout>
+</LinearLayout>

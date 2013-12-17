@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:weightSum="4">
+
+    <!--First 2 buttons-->
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:weightSum="2" android:layout_weight="1">
+        <Button
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:text="Disconect" android:id="@+id/disconect"
+                android:onClick="disconnect"
+                android:layout_weight="1" style="@style/button_black"/>
+        <Button
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:text="Save changes"
+                android:id="@+id/saveChanges" android:layout_gravity="center|right"
+                android:layout_weight="1" android:onClick="saveChanges" style="@style/button_black"/>
+    </LinearLayout>
+
+    <!--First seekBar, trackPad sensibility bar-->
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="2" android:layout_weight="1">
+        <TextView
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:text="Trackpad sensibility" android:id="@+id/textView"
+                android:layout_weight="1"/>
+        <SeekBar
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:id="@+id/trackPad_sensibility"
+                android:thumb="@android:drawable/radiobutton_off_background"
+                android:progressDrawable="@android:color/background_light"
+                android:layout_weight="1"/>
+    </LinearLayout>
+
+    <!--Second seekBar, sensibility for gameControl-->
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="2" android:layout_weight="1">
+        <TextView
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:text="Game control sensibility" android:id="@+id/textView1"
+                android:layout_weight="1"/>
+        <SeekBar
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:id="@+id/gameControl_sensibility"
+                android:thumb="@android:drawable/radiobutton_off_background"
+                android:progressDrawable="@android:color/background_light"
+                android:layout_weight="1"/>
+    </LinearLayout>
+
+    <!--Options to change general color and grid size in custom skin-->
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="2" android:layout_weight="1">
+        <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chooseGridSize"/>
+        <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/chooseColor"/>
+    </LinearLayout>
+</LinearLayout>

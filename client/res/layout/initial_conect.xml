@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:id="@+id/serverButton"
+        android:layout_gravity="left|center_vertical"
+        android:layout_margin="10dp"
+        android:background="@android:color/transparent"
+        android:onClick="connect"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" android:layout_gravity="center" android:layout_marginTop="5dp">
+        <Button
+                style="@style/button_black"
+                android:layout_width="107dp"
+                android:layout_height="wrap_content"
+                android:text="@string/connectBttn"
+                android:id="@+id/connectButton" android:onClick="connect"
+                android:layout_margin="5dp"/>
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ipInput"
+                android:hint="@string/ipHint"
+                android:layout_margin="5dp"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:text="@string/searchNetworks"
+        android:id="@+id/searchNetworksButton"
+        android:onClick="searchServers"
+        android:layout_gravity="center"
+        android:layout_margin="5dp" style="@style/button_black"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button" android:layout_gravity="center" android:onClick="toSkinSelector"/>
+</LinearLayout>
+
