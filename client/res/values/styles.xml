@@ -15,8 +15,20 @@
         <item name="android:textColor">#ffffff</item>
         <item name="android:textStyle">bold</item>
     </style>
+    <style name="button_red">
+        <item name="android:background">@drawable/red_square_button_selector</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
     <style name="toolbar_button">
         <item name="android:background">@drawable/toolbar_button_selector</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="toolbar_button_red">
+        <item name="android:background">@drawable/toolbar_button_selector</item>
+        <item name="android:textColor">#fc0000</item>
         <item name="android:textSize">20dp</item>
         <item name="android:textStyle">bold</item>
     </style>

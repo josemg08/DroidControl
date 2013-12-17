@@ -16,6 +16,14 @@ public class Presentation extends ToolbarActivities {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.black_presentation);
 
+        preferences = getSharedPreferences(pref, 0);
+        if(preferences.getString("colorApp", "Black").equals("Black")){
+            setContentView(R.layout.black_presentation);
+        }
+        else{
+            setContentView(R.layout.red_presentation);
+        }
+
         arrowLeft = (ImageButton) findViewById(R.id.arrowLeftButton);
         arrowRight = (ImageButton) findViewById(R.id.arrowRightButton);
         doBindService();

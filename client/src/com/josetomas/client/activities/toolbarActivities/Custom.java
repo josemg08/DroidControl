@@ -21,10 +21,20 @@ public class Custom extends ToolbarActivities{
         super.onCreate(savedInstanceState);
         preferences = getSharedPreferences(pref, 0);
         if(preferences.getString("gridSize", "2 x 3").equals("2 x 3")){
-            setContentView(R.layout.custom2x3);
+            if(preferences.getString("colorApp", "Black").equals("Black")){
+                setContentView(R.layout.black_custom2x3);
+            }
+            else{
+                setContentView(R.layout.red_custom2x3);
+            }
         }
         else{
-            setContentView(R.layout.custom3x4);
+            if(preferences.getString("colorApp", "Black").equals("Black")){
+                setContentView(R.layout.black_custom3x4);
+            }
+            else{
+                setContentView(R.layout.red_custom3x4);
+            }
         }
 
         button0 = (Button) findViewById(R.id.Button0);

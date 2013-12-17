@@ -9,7 +9,6 @@ import com.josetomas.client.xmlMessage.mouseMessage.CoordinatesMessage;
 import com.josetomas.client.xmlMessage.mouseMessage.GestureMessage;
 
 public class MousePad extends ToolbarActivities {
-
     private int touchCount;
     private float downX, downY, downX2, downY2, distance;
     private long timeDown;
@@ -17,10 +16,16 @@ public class MousePad extends ToolbarActivities {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mousepad);
+
+        preferences = getSharedPreferences(pref, 0);
+        if(preferences.getString("colorApp", "Black").equals("Black")){
+            setContentView(R.layout.black_mousepad);
+        }
+        else{
+            setContentView(R.layout.red_mousepad);
+        }
 
         LinearLayout linearLayout = (LinearLayout) findViewById(R.id.touchPadLayout);
-
         linearLayout.setOnTouchListener(onTouchListener);
         doBindService();
     }

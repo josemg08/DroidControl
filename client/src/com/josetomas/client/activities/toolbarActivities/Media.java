@@ -14,7 +14,14 @@ public class Media extends ToolbarActivities {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.media);
+
+        preferences = getSharedPreferences(pref, 0);
+        if(preferences.getString("colorApp", "Black").equals("Black")){
+            setContentView(R.layout.black_media);
+        }
+        else{
+            setContentView(R.layout.red_media);
+        }
 
         doBindService();
     }

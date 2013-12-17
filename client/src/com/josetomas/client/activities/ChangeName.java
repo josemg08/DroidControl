@@ -16,7 +16,7 @@ public class ChangeName extends Activity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.change_name);
+        setContentView(R.layout.black_change_name);
         text = (EditText) findViewById(R.id.editText);
         preferences = getSharedPreferences(pref, 0);
     }

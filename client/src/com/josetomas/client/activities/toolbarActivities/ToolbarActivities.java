@@ -2,6 +2,7 @@ package com.josetomas.client.activities.toolbarActivities;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
@@ -11,6 +12,8 @@ import com.josetomas.client.activities.Options;
 import com.josetomas.client.xmlMessage.keyboardMessage.ShortCutMessage;
 
 public abstract class ToolbarActivities extends AbstractNetworkActivity {
+    protected static final String pref = "Preferences";
+    protected SharedPreferences preferences;
 
     public static final String DELETE = "DELETE";
 

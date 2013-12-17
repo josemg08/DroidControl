@@ -23,7 +23,14 @@ public class GameControl extends ToolbarActivities implements SensorEventListene
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.game_control);
+
+        preferences = getSharedPreferences(pref, 0);
+        if(preferences.getString("colorApp", "Black").equals("Black")){
+            setContentView(R.layout.black_game_control);
+        }
+        else{
+            setContentView(R.layout.red_game_control);
+        }
 
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         sensor = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);

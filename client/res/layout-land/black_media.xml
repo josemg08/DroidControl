@@ -94,19 +94,22 @@
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:id="@+id/vol_up"
-                    android:layout_weight="1" android:text="Vol Up" android:layout_marginBottom="10dp"/>
+                    android:layout_weight="1" android:layout_marginBottom="10dp"
+                    android:background="@drawable/black_vol_up_selector"/>
             <Button
                     style="@style/button_black"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:id="@+id/vol_down"
-                    android:layout_weight="1" android:text="Vol Down" android:layout_marginBottom="10dp"/>
+                    android:layout_weight="1" android:layout_marginBottom="10dp"
+                    android:background="@drawable/black_vol_down_selector"/>
             <Button
                     style="@style/button_black"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:id="@+id/fullScreen"
-                    android:layout_weight="1" android:text="Full screen" android:onClick="fullScreen"/>
+                    android:layout_weight="1" android:onClick="fullScreen"
+                    android:background="@drawable/black_full_screen_selector"/>
         </LinearLayout>
 
     </LinearLayout>

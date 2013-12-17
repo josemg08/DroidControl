@@ -23,7 +23,7 @@ public class Options extends AbstractNetworkActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.options);
+        setContentView(R.layout.black_options);
         preferences = getPreferences(MODE_PRIVATE);
 
         preferences = getSharedPreferences(pref, 0);
@@ -109,6 +109,7 @@ public class Options extends AbstractNetworkActivity {
 
     public void saveChanges(View view){
         editor.putString("gridSize", spinnerGridSize.getSelectedItem().toString());
+        editor.putString("colorApp", spinnerColor.getSelectedItem().toString());
         editor.commit();
         Intent intent = new Intent(this, MousePad.class);
         startActivity(intent);

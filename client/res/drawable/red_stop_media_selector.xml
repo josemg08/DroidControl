@@ -3,7 +3,7 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item
             android:state_pressed="true"
-            android:drawable="@drawable/black_play_media_press" />
+            android:drawable="@drawable/red_stop_media_press" />
     <item
-            android:drawable="@drawable/black_play_media" />
+            android:drawable="@drawable/red_stop_media" />
 </selector>
