@@ -62,20 +62,19 @@
                     android:layout_height="fill_parent"
                     android:onClick="changeSlide"
                     android:id="@+id/arrowLeftButton"
-                    android:adjustViewBounds="false" android:clickable="false" android:focusable="false"
-                    android:cropToPadding="false" android:focusableInTouchMode="false" android:layout_gravity="left|center_vertical"
                     android:layout_weight="1"
-                    android:layout_marginRight="10dp" android:background="@drawable/black_arrow_left_square_selector"/>
+                    android:layout_marginRight="10dp" android:background="@drawable/black_arrow_left_square_selector"
+                    android:clickable="true" android:enabled="true"/>
                 <Button
                     style="@style/button_black"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:id="@+id/fullScreem"
-                    android:adjustViewBounds="false" android:clickable="false" android:focusable="false"
+                    android:adjustViewBounds="false" android:clickable="true" android:focusable="false"
                     android:cropToPadding="false" android:focusableInTouchMode="false" android:layout_gravity="left|center_vertical"
                     android:layout_weight="1"
-                    android:layout_marginLeft="10dp" android:background="@drawable/black_square_button_selector"
-                    android:text="Full screen" android:onClick="fullScreen"/>
+                    android:layout_marginLeft="10dp" android:background="@drawable/black_full_screen_selector"
+                    android:onClick="fullScreen" android:enabled="true"/>
             </LinearLayout>
             <LinearLayout
                 android:orientation="horizontal"
@@ -87,22 +86,20 @@
                         style="@style/button_black"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:id="@+id/esc"
-                        android:adjustViewBounds="false" android:clickable="false" android:focusable="false"
-                        android:cropToPadding="false" android:focusableInTouchMode="false" android:layout_gravity="left|center_vertical"
+                        android:text="Finish"
+                        android:id="@+id/finish"
                         android:layout_weight="1"
-                        android:layout_marginRight="10dp" android:background="@drawable/black_square_button_selector"
-                        android:text="Finish" android:onClick="esc"/>
+                        android:layout_marginRight="10dp" android:onClick="esc"/>
                 <Button
                         style="@style/button_black"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:id="@+id/timer"
-                        android:adjustViewBounds="false" android:clickable="false" android:focusable="false"
+                        android:adjustViewBounds="false" android:clickable="true" android:focusable="false"
                         android:cropToPadding="false" android:focusableInTouchMode="false" android:layout_gravity="left|center_vertical"
                         android:layout_weight="1"
-                        android:layout_marginLeft="10dp" android:background="@drawable/black_square_button_selector"
-                        android:text="Timer"/>
+                        android:layout_marginLeft="10dp" android:background="@drawable/black_timer_selector"
+                        android:onClick="chronometerAction" android:enabled="true"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -113,12 +110,12 @@
             android:weightSum="3" android:layout_weight="1"
             android:layout_marginLeft="10dp"
             android:background="@android:color/transparent">
-            <ImageButton
+            <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:onClick="changeSlide"
                 android:id="@+id/arrowRightButton"
-                android:background="@android:color/transparent"
+                android:background="@drawable/black_arrow_rigth_square_selector"
                 android:src="@drawable/black_arrow_rigth_square_selector"
                 android:scaleType="fitCenter"
                 android:layout_weight="1"/>

@@ -2,19 +2,22 @@ package com.josetomas.client.activities.toolbarActivities;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
+import android.widget.Button;
+import android.widget.Chronometer;
 import com.josetomas.client.R;
 import com.josetomas.client.xmlMessage.keyboardMessage.ShortCutMessage;
+import android.os.SystemClock;
 
 public class Presentation extends ToolbarActivities {
     public static final String LEFT = "LEFT";
     public static final String RIGHT = "RIGHT";
-    ImageButton arrowLeft, arrowRight;
+    private Button arrowLeft, arrowRight;
+    private Chronometer chronometer;
+    private boolean chronometerGoing = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.black_presentation);
 
         preferences = getSharedPreferences(pref, 0);
         if(preferences.getString("colorApp", "Black").equals("Black")){
@@ -24,13 +27,15 @@ public class Presentation extends ToolbarActivities {
             setContentView(R.layout.red_presentation);
         }
 
-        arrowLeft = (ImageButton) findViewById(R.id.arrowLeftButton);
-        arrowRight = (ImageButton) findViewById(R.id.arrowRightButton);
+        arrowLeft = (Button) findViewById(R.id.ArrowLeftButton);
+        arrowRight = (Button) findViewById(R.id.arrowRightButton);
+        chronometer = (Chronometer) findViewById(R.id.chronometer);
+
         doBindService();
     }
 
     public void changeSlide(View view) {
-        String nameButton = arrowLeft.isPressed() ? LEFT : RIGHT;
+        String nameButton = arrowLeft.isPressed() ? "LEFT" : "RIGHT";
         ShortCutMessage shortCutSms = new ShortCutMessage(nameButton);
         socketService.sendMessage(parseXML.buildXMLMessage(shortCutSms));
     }
@@ -40,9 +45,21 @@ public class Presentation extends ToolbarActivities {
         socketService.sendMessage(parseXML.buildXMLMessage(shortCutSms));
     }
 
-    private void esc (View view) {
+    public void esc (View view) {
         ShortCutMessage shortCutSms = new ShortCutMessage("ESC");
         socketService.sendMessage(parseXML.buildXMLMessage(shortCutSms));
+    }
+
+    public void chronometerAction(View view){
+        if(!chronometerGoing) {
+            chronometer.setBase(SystemClock.elapsedRealtime());
+            chronometer.start();
+            chronometerGoing = true;
+        }
+        else{
+            chronometer.stop();
+            chronometerGoing = false;
+        }
     }
 
 }
