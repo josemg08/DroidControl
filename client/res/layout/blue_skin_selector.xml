@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="4">
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/media" android:text="@string/media"
+            android:layout_weight="1" style="@style/button_blue" android:onClick="goToMedia"
+            android:background="@drawable/blue_skin_media_selector" android:layout_margin="10dp"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/presentation" android:text="@string/presentation"
+            android:layout_weight="1" style="@style/button_blue" android:onClick="goToPresentation"
+            android:background="@drawable/blue_skin_presentation_selector" android:layout_margin="10dp"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/game" android:text="@string/gameCtrl"
+            android:layout_weight="1" style="@style/button_blue" android:onClick="goToGameControl"
+            android:background="@drawable/blue_skin_game_selector" android:layout_margin="10dp"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/custom" android:text="@string/custom"
+            android:layout_weight="1" style="@style/button_blue" android:onClick="goToCustom"
+            android:background="@drawable/blue_skin_button_selector" android:layout_margin="10dp"/>
+</LinearLayout>

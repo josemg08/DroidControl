@@ -15,6 +15,12 @@
         <item name="android:textColor">#ffffff</item>
         <item name="android:textStyle">bold</item>
     </style>
+    <style name="button_blue">
+        <item name="android:background">@drawable/blue_square_button_selector</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
     <style name="button_red">
         <item name="android:background">@drawable/red_square_button_selector</item>
         <item name="android:textSize">20dp</item>
@@ -41,6 +47,12 @@
     <style name="toolbar_button_green">
         <item name="android:background">@drawable/toolbar_button_selector</item>
         <item name="android:textColor">#7ECE55</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="toolbar_button_blue">
+        <item name="android:background">@drawable/toolbar_button_selector</item>
+        <item name="android:textColor">#44ABCD</item>
         <item name="android:textSize">20dp</item>
         <item name="android:textStyle">bold</item>
     </style>

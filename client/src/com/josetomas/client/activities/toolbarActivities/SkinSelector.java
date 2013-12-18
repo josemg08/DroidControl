@@ -24,6 +24,9 @@ public class SkinSelector extends Activity {
         else if(color.equals("Green")){
             setContentView(R.layout.green_skin_selector);
         }
+        else if(color.equals("Blue")){
+            setContentView(R.layout.blue_skin_selector);
+        }
         else{
             setContentView(R.layout.red_skin_selector);
         }

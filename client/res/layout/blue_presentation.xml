@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:background="#000000">
+
+    <!--Toolbar-->
+    <LinearLayout
+        android:orientation="horizontal" android:layout_gravity="top"
+        android:layout_width="fill_parent" android:layout_height="50dp"
+        android:weightSum="4" android:background="#44ABCD">
+        <ImageButton
+            android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:id="@+id/trackpad"
+            android:layout_weight="1" android:layout_gravity="center_horizontal|top"
+            android:background="@drawable/toolbar_mouse_selector" android:onClick="goToTouchPad"/>
+        <ImageButton
+            android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:id="@+id/keyboard"
+            android:layout_weight="1" android:layout_gravity="center_horizontal|top"
+            android:background="@drawable/toolbar_keyboard_selector" android:onClick="showKeyboard"/>
+        <Button
+            android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:text="Skins" android:id="@+id/button"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_weight="1" android:onClick="goToSkinSelector"
+            android:background="@drawable/toolbar_button_selector" style="@style/toolbar_button_blue"/>
+        <Button
+            style="@style/toolbar_button_blue"
+            android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:text="Options" android:id="@+id/options"
+            android:layout_weight="1" android:onClick="goToOptions"/>
+    </LinearLayout>
+
+    <!--presentation layout-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="fill_parent"
+                  android:weightSum="2" android:layout_weight="1"
+                  android:layout_margin="20dp"
+                  android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="2" android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/transparent">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="2" android:layout_weight="1"
+                android:background="@android:color/transparent" android:layout_marginBottom="10dp">
+                <Button
+                    style="@style/button_blue"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:onClick="changeSlide"
+                    android:id="@+id/arrowLeftButton"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp" android:background="@drawable/blue_arrow_left_square_selector"
+                    android:clickable="true" android:enabled="true"/>
+                <Button
+                    style="@style/button_blue"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/fullScreem"
+                    android:adjustViewBounds="false" android:clickable="true" android:focusable="false"
+                    android:cropToPadding="false" android:focusableInTouchMode="false" android:layout_gravity="left|center_vertical"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp" android:background="@drawable/blue_full_screen_selector"
+                    android:onClick="fullScreen" android:enabled="true"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="2" android:layout_weight="1"
+                android:background="@android:color/transparent" android:layout_marginTop="10dp">
+                <Button
+                        style="@style/button_blue"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Finish"
+                        android:id="@+id/finish"
+                        android:layout_weight="1"
+                        android:layout_marginRight="10dp" android:onClick="esc"/>
+                <Button
+                        style="@style/button_blue"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/timer"
+                        android:adjustViewBounds="false" android:clickable="true" android:focusable="false"
+                        android:cropToPadding="false" android:focusableInTouchMode="false" android:layout_gravity="left|center_vertical"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="10dp" android:background="@drawable/blue_timer_selector"
+                        android:onClick="chronometerAction" android:enabled="true"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="3" android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent">
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="changeSlide"
+                android:id="@+id/arrowRightButton"
+                android:background="@drawable/blue_arrow_rigth_square_selector"
+                android:src="@drawable/blue_arrow_rigth_square_selector"
+                android:scaleType="fitCenter"
+                android:layout_weight="1"/>
+            <Chronometer
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/chronometer"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_weight="2"
+                android:layout_marginTop="20dp"
+                android:textSize="30dp"
+                android:background="@android:color/transparent" android:layout_marginLeft="14dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

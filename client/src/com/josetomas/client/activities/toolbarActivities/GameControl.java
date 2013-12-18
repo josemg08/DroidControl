@@ -33,6 +33,9 @@ public class GameControl extends ToolbarActivities implements SensorEventListene
         else if(color.equals("Green")){
             setContentView(R.layout.green_game_control);
         }
+        else if(color.equals("Blue")){
+            setContentView(R.layout.blue_game_control);
+        }
         else{
             setContentView(R.layout.red_game_control);
         }

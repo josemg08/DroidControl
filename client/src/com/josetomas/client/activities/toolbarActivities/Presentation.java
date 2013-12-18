@@ -28,6 +28,9 @@ public class Presentation extends ToolbarActivities {
         else if(color.equals("Green")){
             setContentView(R.layout.green_presentation);
         }
+        else if(color.equals("Blue")){
+            setContentView(R.layout.blue_presentation);
+        }
         else{
             setContentView(R.layout.red_presentation);
         }

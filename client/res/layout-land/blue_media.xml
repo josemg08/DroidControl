@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <!--Toolbar-->
+    <LinearLayout
+            android:orientation="horizontal" android:layout_gravity="top"
+            android:layout_width="fill_parent" android:layout_height="50dp"
+            android:weightSum="4" android:background="#44abcd">
+        <ImageButton
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:id="@+id/trackpad"
+                android:layout_weight="1" android:layout_gravity="center_horizontal|top"
+                android:background="@drawable/toolbar_mouse_selector" android:onClick="goToTouchPad"/>
+        <ImageButton
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:id="@+id/keyboard"
+                android:layout_weight="1" android:layout_gravity="center_horizontal|top"
+                android:background="@drawable/toolbar_keyboard_selector" android:onClick="showKeyboard"/>
+        <Button
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:text="Skins" android:id="@+id/button"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_weight="1" android:onClick="goToSkinSelector"
+                android:background="@drawable/toolbar_button_selector" style="@style/toolbar_button_blue"/>
+        <Button
+                style="@style/toolbar_button_blue"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:text="Options" android:id="@+id/options"
+                android:layout_weight="1" android:onClick="goToOptions"/>
+    </LinearLayout>
+
+    <!--media layout-->
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="3">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" android:weightSum="2">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" android:weightSum="2" android:layout_margin="10dp">
+                <ImageButton
+                        android:background="@drawable/blue_arrow_rigth_square_selector"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/play"
+                        android:layout_weight="1" android:onClick="mediaPlayPause" android:layout_marginRight="10dp"/>
+                <ImageButton
+                        android:background="@drawable/blue_stop_media_selector"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/pause"
+                        android:layout_weight="1" android:onClick="mediaPlayPause" android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" android:weightSum="2" android:layout_margin="10dp">
+                <ImageButton
+                        android:background="@drawable/blue_back_media_selector"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/back"
+                        android:layout_weight="1" android:onClick="mediaBack" android:layout_marginRight="10dp"/>
+                <ImageButton
+                        android:background="@drawable/blue_forward_media_selector"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/forward"
+                        android:layout_weight="1" android:onClick="mediaForward" android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" android:weightSum="3"
+            android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+            <Button
+                    style="@style/button_blue"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/vol_up"
+                    android:layout_weight="1" android:layout_marginBottom="10dp"
+                    android:background="@drawable/blue_vol_up_selector"/>
+            <Button
+                    style="@style/button_blue"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/vol_down"
+                    android:layout_weight="1" android:layout_marginBottom="10dp"
+                    android:background="@drawable/blue_vol_down_selector"/>
+            <Button
+                    style="@style/button_blue"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/fullScreen"
+                    android:layout_weight="1" android:onClick="fullScreen"
+                    android:background="@drawable/blue_full_screen_selector"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -26,6 +26,9 @@ public class MousePad extends ToolbarActivities {
         else if(color.equals("Green")){
             setContentView(R.layout.green_mousepad);
         }
+        else if(color.equals("Blue")){
+            setContentView(R.layout.blue_mousepad);
+        }
         else{
             setContentView(R.layout.red_mousepad);
         }

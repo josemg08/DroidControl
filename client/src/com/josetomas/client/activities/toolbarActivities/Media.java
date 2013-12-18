@@ -25,6 +25,9 @@ public class Media extends ToolbarActivities {
         else if(color.equals("Green")){
             setContentView(R.layout.green_media);
         }
+        else if(color.equals("Blue")){
+            setContentView(R.layout.blue_media);
+        }
         else{
             setContentView(R.layout.red_media);
         }
@@ -33,13 +36,21 @@ public class Media extends ToolbarActivities {
     }
 
     public void mediaPlayPause(View view) {
+        String color = preferences.getString("colorApp", "Black");
+
         if(!play){
             ShortCutMessage shortCutSms = new ShortCutMessage(PLAY);
             socketService.sendMessage(parseXML.buildXMLMessage(shortCutSms));
             view.setBackgroundResource(R.drawable.black_pause_selector);
 
-            if(preferences.getString("colorApp", "Black").equals("Black")){
+            if(color.equals("Black")){
                 view.setBackgroundResource(R.drawable.black_pause_selector);
+            }
+            else if(color.equals("Green")){
+                view.setBackgroundResource(R.drawable.green_pause_selector);
+            }
+            else if(color.equals("Blue")){
+                view.setBackgroundResource(R.drawable.blue_pause_selector);
             }
             else{
                 view.setBackgroundResource(R.drawable.red_pause_selector);
@@ -51,8 +62,14 @@ public class Media extends ToolbarActivities {
             ShortCutMessage shortCutSms = new ShortCutMessage(PLAY);
             socketService.sendMessage(parseXML.buildXMLMessage(shortCutSms));
 
-            if(preferences.getString("colorApp", "Black").equals("Black")){
+            if(color.equals("Black")){
                 view.setBackgroundResource(R.drawable.black_arrow_rigth_square_selector);
+            }
+            else if(color.equals("Green")){
+                view.setBackgroundResource(R.drawable.green_arrow_rigth_square_selector);
+            }
+            else if(color.equals("Blue")){
+                view.setBackgroundResource(R.drawable.blue_arrow_rigth_square_selector);
             }
             else{
                 view.setBackgroundResource(R.drawable.red_arrow_rigth_square_selector);

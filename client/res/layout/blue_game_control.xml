@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <!--Toolbar-->
+    <LinearLayout
+            android:orientation="horizontal" android:layout_gravity="top"
+            android:layout_width="fill_parent" android:layout_height="50dp"
+            android:weightSum="4" android:background="#44ABCD">
+        <ImageButton
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:id="@+id/trackpad"
+                android:layout_weight="1" android:layout_gravity="center_horizontal|top"
+                android:background="@drawable/toolbar_mouse_selector" android:onClick="goToTouchPad"/>
+        <ImageButton
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:id="@+id/keyboard"
+                android:layout_weight="1" android:layout_gravity="center_horizontal|top"
+                android:background="@drawable/toolbar_keyboard_selector" android:onClick="showKeyboard"/>
+        <Button
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:text="Skins" android:id="@+id/button"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_weight="1" android:onClick="goToSkinSelector"
+                android:background="@drawable/toolbar_button_selector" style="@style/toolbar_button_blue"/>
+        <Button
+                style="@style/toolbar_button_blue"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:text="Options" android:id="@+id/options"
+                android:layout_weight="1" android:onClick="goToOptions"/>
+    </LinearLayout>
+
+    <!--Game Buttons-->
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="3"
+            android:layout_weight="1">
+
+        <!--Arrow Buttons-->
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3"
+                android:layout_weight="1" android:layout_margin="10dp">
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ArrowLeftButton"
+                    android:layout_weight="1" android:layout_marginTop="60dp" android:layout_marginBottom="60dp"
+                    android:background="@drawable/blue_arrow_left_selector" android:onClick="left"/>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:weightSum="2" android:layout_weight="1">
+                <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/UpArrowButton"
+                        android:layout_weight="1" android:onClick="up"
+                        android:background="@drawable/blue_arrow_up_selector"/>
+                <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/DownArrowButton"
+                        android:layout_weight="1" android:onClick="down"
+                        android:background="@drawable/blue_arrow_down_selector"/>
+            </LinearLayout>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/RigthArrowButton"
+                    android:layout_weight="1" android:background="@drawable/blue_arrow_rigth_selector"
+                    android:layout_marginBottom="60dp" android:layout_marginTop="60dp" android:onClick="right"/>
+        </LinearLayout>
+
+        <!--Pause Options-->
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="2" android:layout_weight="1" android:layout_marginTop="100dp"
+                android:layout_marginBottom="100dp">
+            <Button
+                    style="@style/button_blue"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Options"
+                    android:id="@+id/OptionsButton"
+                    android:layout_weight="1" android:background="@drawable/blue_square_button_selector"
+                    android:textSize="16dp"/>
+            <Button
+                    style="@style/button_blue"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Pause"
+                    android:id="@+id/PauseButton"
+                    android:layout_weight="1" android:background="@drawable/blue_square_button_selector"/>
+        </LinearLayout>
+
+        <!--Game Buttons ABCD-->
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="3"
+                android:layout_weight="1" android:layout_margin="10dp">
+            <Button
+                    style="@style/button_blue"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A"
+                    android:id="@+id/GameAButton"
+                    android:layout_weight="1" android:layout_marginBottom="60dp" android:layout_marginTop="60dp"
+                    android:background="@drawable/blue_button_selector"/>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:weightSum="2" android:layout_weight="1">
+                <Button
+                        style="@style/button_blue"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="B"
+                        android:id="@+id/GameBButton"
+                        android:layout_weight="1" android:background="@drawable/blue_button_selector"/>
+                <Button
+                        style="@style/button_blue"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="C"
+                        android:id="@+id/GameCButton"
+                        android:layout_weight="1" android:background="@drawable/blue_button_selector"/>
+            </LinearLayout>
+            <Button
+                    style="@style/button_blue"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="D"
+                    android:id="@+id/GameDButton"
+                    android:layout_weight="1" android:layout_marginTop="60dp" android:layout_marginBottom="60dp"
+                    android:background="@drawable/blue_button_selector"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

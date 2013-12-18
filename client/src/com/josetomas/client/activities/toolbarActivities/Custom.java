@@ -29,6 +29,9 @@ public class Custom extends ToolbarActivities{
             else if(color.equals("Green")){
                 setContentView(R.layout.green_custom2x3);
             }
+            else if(color.equals("Blue")){
+                setContentView(R.layout.blue_custom2x3);
+            }
             else{
                 setContentView(R.layout.red_custom2x3);
             }
@@ -39,6 +42,9 @@ public class Custom extends ToolbarActivities{
             }
             else if(color.equals("Green")){
                 setContentView(R.layout.green_custom3x4);
+            }
+            else if(color.equals("Blue")){
+                setContentView(R.layout.blue_custom3x4);
             }
             else{
                 setContentView(R.layout.red_custom3x4);

@@ -25,6 +25,12 @@
     </option>
     <device-configurations>
       <entry key="file://$PROJECT_DIR$/client/res/layout-land/red_media.xml" value="Portrait" />
+      <entry key="file://$PROJECT_DIR$/client/res/layout/blue_custom2x3.xml" value="Landscape" />
+      <entry key="file://$PROJECT_DIR$/client/res/layout/blue_custom3x4.xml" value="Landscape" />
+      <entry key="file://$PROJECT_DIR$/client/res/layout/blue_game_control.xml" value="Landscape" />
+      <entry key="file://$PROJECT_DIR$/client/res/layout/blue_media.xml" value="Landscape" />
+      <entry key="file://$PROJECT_DIR$/client/res/layout/blue_presentation.xml" value="Landscape" />
+      <entry key="file://$PROJECT_DIR$/client/res/layout/blue_skin_selector.xml" value="Landscape" />
       <entry key="file://$PROJECT_DIR$/client/res/layout/green_custom2x3.xml" value="Landscape" />
       <entry key="file://$PROJECT_DIR$/client/res/layout/green_custom3x4.xml" value="Landscape" />
       <entry key="file://$PROJECT_DIR$/client/res/layout/green_game_control.xml" value="Landscape" />
@@ -35,62 +41,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c67eb80e-7410-4826-8527-f0495b114f54" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_down_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_left_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_left_square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_left_square_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_rigth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_rigth_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_rigth_square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_rigth_square_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_up_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_back_media.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_back_media_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_button_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_button_square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_button_square_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_forward_media.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_forward_media_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_full_screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_full_screen_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_pause.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_pause_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_button_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_game.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_game_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_media.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_media_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_presentation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_presentation_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_stop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_stop_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_vol_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_vol_down_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_vol_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_vol_up_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_timer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_timer_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_down_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_left_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_left_square_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_rigth_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_rigth_square_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_up_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_back_media_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_button_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout/blue_custom2x3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout/blue_custom3x4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_forward_media_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_full_screen_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout/blue_game_control.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout/blue_media.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout-land/blue_media.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout/blue_mousepad.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_pause_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout/blue_presentation.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_button_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_game_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_media_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_presentation_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout/blue_skin_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_square_button_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_stop_media_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_timer_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_vol_down_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_vol_up_selector.xml" />
+      <change type="MOVED" beforePath="C:\Users\Adela\Desktop\droidremote\client\res\drawable\blue_button_square.png" afterPath="$PROJECT_DIR$/client/res/drawable/blue_square_button.png" />
+      <change type="MOVED" beforePath="C:\Users\Adela\Desktop\droidremote\client\res\drawable\blue_button_square_press.png" afterPath="$PROJECT_DIR$/client/res/drawable/blue_square_button_press.png" />
+      <change type="MOVED" beforePath="C:\Users\Adela\Desktop\droidremote\client\res\drawable\blue_stop.png" afterPath="$PROJECT_DIR$/client/res/drawable/blue_stop_media.png" />
+      <change type="MOVED" beforePath="C:\Users\Adela\Desktop\droidremote\client\res\drawable\blue_stop_press.png" afterPath="$PROJECT_DIR$/client/res/drawable/blue_stop_media_press.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Custom.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Custom.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/GameControl.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/GameControl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Media.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Media.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/MousePad.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/MousePad.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Presentation.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Presentation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/SkinSelector.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/SkinSelector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/res/values/styles.xml" afterPath="$PROJECT_DIR$/client/res/values/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="droidremote.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387295609987" ignored="false" />
+    <file path="/Dummy.txt" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387326788785" ignored="false" />
     <file path="/fragment.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1386726181606" ignored="false" />
     <file path="/presentation.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1378068271929" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1382297558986" ignored="false" />
     <file path="/initial_page.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1378844059596" ignored="false" />
     <file path="/Initial_page.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1378941844332" ignored="false" />
     <file path="/main.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1381777476067" ignored="false" />
-    <file path="/Presentation.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387294795129" ignored="false" />
+    <file path="/Presentation.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387328942927" ignored="false" />
     <file path="/KeyBoardIterator.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1379374099348" ignored="false" />
     <file path="/IteratorXML.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1379364637046" ignored="false" />
     <file path="/PressMessage.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1379360487616" ignored="false" />
     <file path="/MessageTypes.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1379358118563" ignored="false" />
     <file path="/ReleaseMessage.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1379360529317" ignored="false" />
-    <file path="/GameControl.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387294616234" ignored="false" />
+    <file path="/GameControl.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387328808267" ignored="false" />
     <file path="$PROJECT_DIR$/../untitled/res/layout/ejemplo1.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1381266098104" ignored="false" />
     <file path="$PROJECT_DIR$/../untitled/src/com/example/untitled/MyActivity.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1381266840086" ignored="false" />
     <file path="/MyActivity.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1381878485981" ignored="false" />
@@ -126,7 +135,7 @@
     <file path="/red_timer_selector.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387273648573" ignored="false" />
     <file path="/red_vol_down_selector.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387273663397" ignored="false" />
     <file path="/red_vol_up_selector.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387273679002" ignored="false" />
-    <file path="/styles.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387293018276" ignored="false" />
+    <file path="/styles.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387327636636" ignored="false" />
     <file path="/red_presentation.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387274252730" ignored="false" />
     <file path="/red_pause_selector.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387274441743" ignored="false" />
     <file path="/red_full_screen_selector.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387274459845" ignored="false" />
@@ -146,10 +155,10 @@
     <file path="/red_custom3x4.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387277143085" ignored="false" />
     <file path="/Options.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387277485644" ignored="false" />
     <file path="/ToolbarActivities.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387277639412" ignored="false" />
-    <file path="/Custom.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387294511859" ignored="false" />
-    <file path="/Media.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387294674188" ignored="false" />
-    <file path="/MousePad.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387294741788" ignored="false" />
-    <file path="/SkinSelector.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387294854429" ignored="false" />
+    <file path="/Custom.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387329246609" ignored="false" />
+    <file path="/Media.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387328886337" ignored="false" />
+    <file path="/MousePad.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387328914647" ignored="false" />
+    <file path="/SkinSelector.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387328964085" ignored="false" />
     <file path="/green_arrow_down_selector.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387290696246" ignored="false" />
     <file path="/green_arrow_rigth_selector.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387291890123" ignored="false" />
     <file path="/green_arrow_rigth_square_selector.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387291910551" ignored="false" />
@@ -160,6 +169,23 @@
     <file path="/green_custom3x4.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387294045200" ignored="false" />
     <file path="/green_custom2x3.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387294137887" ignored="false" />
     <file path="/green_skin_selector.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387295307012" ignored="false" />
+    <file path="/blue_arrow_down_selector.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387297022460" ignored="false" />
+    <file path="/blue_arrow_left_selector.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387297259813" ignored="false" />
+    <file path="/blue_stop_media_selector.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387326833747" ignored="false" />
+    <file path="/blue_skin_presentation_selector.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387327235114" ignored="false" />
+    <file path="/blue_skin_media_selector.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387327256749" ignored="false" />
+    <file path="/blue_arrow_rigth_selector.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387327321233" ignored="false" />
+    <file path="/blue_arrow_rigth_square_selector.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387327346103" ignored="false" />
+    <file path="/blue_arrow_up_selector.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387327358937" ignored="false" />
+    <file path="/blue_back_media_selector.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387327367982" ignored="false" />
+    <file path="/blue_button_selector.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387327377410" ignored="false" />
+    <file path="/blue_forward_media_selector.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387327395909" ignored="false" />
+    <file path="/blue_full_screen_selector.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387327405881" ignored="false" />
+    <file path="/blue_media.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387328448340" ignored="false" />
+    <file path="/blue_custom2x3.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387328113696" ignored="false" />
+    <file path="/blue_custom3x4.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387328242554" ignored="false" />
+    <file path="/blue_game_control.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387328314543" ignored="false" />
+    <file path="/blue_presentation.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387328581520" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +250,86 @@
     <favorites_list name="droidremote" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="blue_presentation.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/res/layout/blue_presentation.xml">
+          <provider editor-type-id="text-editor">
+            <state line="118" column="43" selection-start="6464" selection-end="6464" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Custom.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Custom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="34" selection-start="1715" selection-end="1715" vertical-scroll-proportion="0.6551724">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameControl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/GameControl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="23" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Media.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Media.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="42" selection-start="2621" selection-end="2621" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MousePad.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/MousePad.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="24" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Presentation.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Presentation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="40" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SkinSelector.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/SkinSelector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="22" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blue_skin_selector.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/res/layout/blue_skin_selector.xml">
+          <provider editor-type-id="text-editor">
+            <state line="31" column="46" selection-start="1738" selection-end="1738" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -250,22 +355,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/client/res/layout-land/green_media.xml" />
+        <option value="$PROJECT_DIR$/client/res/drawable/blue_full_screen_selector.xml" />
         <option value="$PROJECT_DIR$/client/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/client/res/layout/green_presentation.xml" />
-        <option value="$PROJECT_DIR$/client/res/layout/green_mousepad.xml" />
-        <option value="$PROJECT_DIR$/client/res/layout/green_media.xml" />
-        <option value="$PROJECT_DIR$/client/res/layout/green_game_control.xml" />
-        <option value="$PROJECT_DIR$/client/res/layout/green_custom3x4.xml" />
-        <option value="$PROJECT_DIR$/client/res/layout/green_custom2x3.xml" />
-        <option value="$PROJECT_DIR$/client/src/com/josetomas/client/activities/Options.java" />
-        <option value="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Custom.java" />
+        <option value="$PROJECT_DIR$/client/res/layout-land/blue_media.xml" />
+        <option value="$PROJECT_DIR$/client/res/layout/blue_custom2x3.xml" />
+        <option value="$PROJECT_DIR$/client/res/layout/blue_custom3x4.xml" />
+        <option value="$PROJECT_DIR$/client/res/layout/blue_game_control.xml" />
+        <option value="$PROJECT_DIR$/client/res/layout/blue_media.xml" />
+        <option value="$PROJECT_DIR$/client/res/layout/blue_mousepad.xml" />
+        <option value="$PROJECT_DIR$/client/res/layout/blue_presentation.xml" />
+        <option value="$PROJECT_DIR$/client/res/layout/blue_skin_selector.xml" />
         <option value="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/GameControl.java" />
         <option value="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Media.java" />
         <option value="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/MousePad.java" />
         <option value="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Presentation.java" />
         <option value="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/SkinSelector.java" />
-        <option value="$PROJECT_DIR$/client/res/layout/green_skin_selector.xml" />
+        <option value="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Custom.java" />
       </list>
     </option>
   </component>
@@ -395,56 +500,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="droidremote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="droidremote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="droidremote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -452,13 +507,13 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="72" />
-    <property name="project.structure.proportion" value="0.15" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="72" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="73" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="72" />
@@ -474,8 +529,8 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
@@ -484,8 +539,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -497,8 +552,8 @@
       <recent name="C:\Users\Adela\Desktop\droidremote\server\src\com\josetomas\server\XMLMessage\KeyboardMessage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Adela\Desktop\droidremote\client\res\drawable" />
       <recent name="C:\Users\Adela\Desktop\droidremote\client\res\layout" />
+      <recent name="C:\Users\Adela\Desktop\droidremote\client\res\drawable" />
       <recent name="C:\Users\Adela\Desktop\droidremote\client" />
     </key>
   </component>
@@ -535,6 +590,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -560,19 +628,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -720,7 +775,11 @@
       <created>1387295711374</created>
       <updated>1387295711374</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Blue skin.">
+      <created>1387296553738</created>
+      <updated>1387296553738</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -745,14 +804,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="616" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32617587" sideWeight="0.67102396" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32310838" sideWeight="0.67102396" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.9106754" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889345" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889345" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924336" sideWeight="0.6688453" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24948876" sideWeight="0.67102396" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -764,8 +823,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24948876" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924336" sideWeight="0.67102396" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39959016" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25051126" sideWeight="0.67102396" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32897604" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25051126" sideWeight="0.67102396" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32897604" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -815,7 +874,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Green skin can now be selected." />
+    <option name="LAST_COMMIT_MESSAGE" value="Blue skin." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -836,6 +895,7 @@
     <MESSAGE value="Chronometer in presentation activity." />
     <MESSAGE value="Green skin." />
     <MESSAGE value="Green skin can now be selected." />
+    <MESSAGE value="Blue skin." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -845,9 +905,23 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/res/layout/green_presentation.xml">
+    <entry file="file://$PROJECT_DIR$/client/res/drawable/blue_pause_selector.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="44" selection-start="276" selection-end="276" vertical-scroll-proportion="0.2735632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="46" selection-start="2576" selection-end="2576" vertical-scroll-proportion="0.8045977">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/res/layout/blue_custom2x3.xml">
       <provider editor-type-id="text-editor">
-        <state line="118" column="44" selection-start="6475" selection-end="6475" vertical-scroll-proportion="0.0">
+        <state line="94" column="41" selection-start="4417" selection-end="4417" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -855,7 +929,47 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/res/layout/green_mousepad.xml">
+    <entry file="file://$PROJECT_DIR$/client/res/layout-land/blue_media.xml">
+      <provider editor-type-id="text-editor">
+        <state line="104" column="50" selection-start="5718" selection-end="5722" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/res/layout/blue_custom3x4.xml">
+      <provider editor-type-id="text-editor">
+        <state line="159" column="41" selection-start="7481" selection-end="7481" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/res/layout/blue_game_control.xml">
+      <provider editor-type-id="text-editor">
+        <state line="147" column="54" selection-start="7771" selection-end="7771" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/res/layout/blue_media.xml">
+      <provider editor-type-id="text-editor">
+        <state line="119" column="58" selection-start="6510" selection-end="6510" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/res/layout/blue_mousepad.xml">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -865,9 +979,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/res/layout/green_media.xml">
+    <entry file="file://$PROJECT_DIR$/client/res/layout/blue_skin_selector.xml">
       <provider editor-type-id="text-editor">
-        <state line="119" column="59" selection-start="6522" selection-end="6522" vertical-scroll-proportion="0.0">
+        <state line="31" column="46" selection-start="1738" selection-end="1738" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -875,108 +989,54 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/res/layout/green_game_control.xml">
+    <entry file="file://$PROJECT_DIR$/client/res/layout/blue_presentation.xml">
       <provider editor-type-id="text-editor">
-        <state line="147" column="55" selection-start="7789" selection-end="7789" vertical-scroll-proportion="0.0">
+        <state line="118" column="43" selection-start="6464" selection-end="6464" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/res/layout/green_custom2x3.xml">
-      <provider editor-type-id="text-editor">
-        <state line="118" column="45" selection-start="5451" selection-end="5451" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/Options.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="32" selection-start="3562" selection-end="3562" vertical-scroll-proportion="-0.22619048">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/AbstractNetworkActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/GameControl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="54" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.45265588">
+        <state line="35" column="23" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Media.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="21" selection-start="908" selection-end="908" vertical-scroll-proportion="0.70669746">
+        <state line="73" column="42" selection-start="2621" selection-end="2621" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/MousePad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="36" selection-start="963" selection-end="963" vertical-scroll-proportion="0.8095238">
+        <state line="28" column="24" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Presentation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="60" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/res/layout/black_custom3x4.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/res/layout/green_skin_selector.xml">
-      <provider editor-type-id="text-editor">
-        <state line="31" column="47" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/res/layout/green_custom3x4.xml">
-      <provider editor-type-id="text-editor">
-        <state line="159" column="42" selection-start="7495" selection-end="7495" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Custom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="54" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.9148936">
+        <state line="33" column="40" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/SkinSelector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="49" selection-start="850" selection-end="850" vertical-scroll-proportion="0.5921986">
+        <state line="21" column="22" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Custom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="34" selection-start="1715" selection-end="1715" vertical-scroll-proportion="0.6551724">
           <folding />
         </state>
       </provider>
