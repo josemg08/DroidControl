@@ -1,4 +1,4 @@
-package com.josetomas.client.activities;
+package com.josetomas.client.network;
 
 import android.app.Activity;
 import android.content.ComponentName;
@@ -6,7 +6,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.IBinder;
-import com.josetomas.client.network.SocketService;
 import com.josetomas.client.xmlMessage.ParseXML;
 
 public class AbstractNetworkActivity extends Activity {
@@ -19,10 +18,15 @@ public class AbstractNetworkActivity extends Activity {
         parseXML = new ParseXML();
     }
 
+    /**
+     * Defines callbacks for service binding, passed to bindService()
+     */
     protected ServiceConnection mConnection = new ServiceConnection() {
         @Override
         public void onServiceConnected(ComponentName componentName, IBinder service) {
+            // We've bound to SocketService, cast the IBinder and get SocketService instance
             socketService = ((SocketService.LocalBinder) service).getService();
+            mIsBound = true;
         }
 
         @Override
@@ -32,8 +36,8 @@ public class AbstractNetworkActivity extends Activity {
     };
 
     protected void doBindService() {
-        bindService(new Intent(this, SocketService.class), mConnection, Context.BIND_AUTO_CREATE);
-        mIsBound = true;
+        bindService(new Intent(AbstractNetworkActivity.this, SocketService.class), mConnection, Context.BIND_AUTO_CREATE);
+
         if (socketService != null) {
             socketService.isBoundable();
         }

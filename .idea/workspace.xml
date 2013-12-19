@@ -41,60 +41,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c67eb80e-7410-4826-8527-f0495b114f54" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_timer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_timer_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_down_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_left_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_left_square_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_rigth_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_rigth_square_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_arrow_up_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_back_media_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_button_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout/blue_custom2x3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout/blue_custom3x4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_forward_media_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_full_screen_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout/blue_game_control.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout/blue_media.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout-land/blue_media.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout/blue_mousepad.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_pause_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout/blue_presentation.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_button_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_game_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_media_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_skin_presentation_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout/blue_skin_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_square_button_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_stop_media_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_timer_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_vol_down_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/drawable/blue_vol_up_selector.xml" />
-      <change type="MOVED" beforePath="C:\Users\Adela\Desktop\droidremote\client\res\drawable\blue_button_square.png" afterPath="$PROJECT_DIR$/client/res/drawable/blue_square_button.png" />
-      <change type="MOVED" beforePath="C:\Users\Adela\Desktop\droidremote\client\res\drawable\blue_button_square_press.png" afterPath="$PROJECT_DIR$/client/res/drawable/blue_square_button_press.png" />
-      <change type="MOVED" beforePath="C:\Users\Adela\Desktop\droidremote\client\res\drawable\blue_stop.png" afterPath="$PROJECT_DIR$/client/res/drawable/blue_stop_media.png" />
-      <change type="MOVED" beforePath="C:\Users\Adela\Desktop\droidremote\client\res\drawable\blue_stop_press.png" afterPath="$PROJECT_DIR$/client/res/drawable/blue_stop_media_press.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Custom.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Custom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/GameControl.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/GameControl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Media.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Media.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/MousePad.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/MousePad.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Presentation.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Presentation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/SkinSelector.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/SkinSelector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/res/values/styles.xml" afterPath="$PROJECT_DIR$/client/res/values/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/ErrorDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/SplashScreen.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/network/UdpResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/res/layout/splash_screen.xml" />
+      <change type="DELETED" beforePath="C:\Users\Adela\Desktop\Nueva carpeta\droidremote\client\src\com\josetomas\client\activities\Initial_page.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Adela\Desktop\Nueva carpeta\droidremote\client\src\com\josetomas\client\activities\AbstractNetworkActivity.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/network/AbstractNetworkActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/AndroidManifest.xml" afterPath="$PROJECT_DIR$/client/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/MClient.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/MClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/network/NetworkResult.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/network/NetworkResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/Options.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/Options.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/com/josetomas/server/my_iterator/ShortCuts.csv" afterPath="$PROJECT_DIR$/server/src/com/josetomas/server/my_iterator/ShortCuts.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/network/SocketService.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/network/SocketService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/network/ThreadNetworkInitializer.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/network/ThreadNetworkInitializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/ToolbarActivities.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/ToolbarActivities.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/network/UDPClientConnection.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/network/UDPClientConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/ValidatePassword.java" afterPath="$PROJECT_DIR$/client/src/com/josetomas/client/activities/ValidatePassword.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/res/layout/droid_control.xml" afterPath="$PROJECT_DIR$/client/res/layout/droid_control.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/res/layout/initial_conect.xml" afterPath="$PROJECT_DIR$/client/res/layout/initial_conect.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/res/values/strings.xml" afterPath="$PROJECT_DIR$/client/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/res/values-es/strings.xml" afterPath="$PROJECT_DIR$/client/res/values-es/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="droidremote.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387326788785" ignored="false" />
-    <file path="/fragment.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1386726181606" ignored="false" />
+    <file path="/Dummy.txt" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387439197753" ignored="false" />
+    <file path="/fragment.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387438332606" ignored="false" />
     <file path="/presentation.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1378068271929" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1382297558986" ignored="false" />
     <file path="/initial_page.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1378844059596" ignored="false" />
     <file path="/Initial_page.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1378941844332" ignored="false" />
     <file path="/main.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1381777476067" ignored="false" />
     <file path="/Presentation.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387328942927" ignored="false" />
-    <file path="/KeyBoardIterator.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1379374099348" ignored="false" />
+    <file path="/KeyBoardIterator.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387356915516" ignored="false" />
     <file path="/IteratorXML.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1379364637046" ignored="false" />
     <file path="/PressMessage.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1379360487616" ignored="false" />
     <file path="/MessageTypes.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1379358118563" ignored="false" />
@@ -186,6 +165,9 @@
     <file path="/blue_custom3x4.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387328242554" ignored="false" />
     <file path="/blue_game_control.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387328314543" ignored="false" />
     <file path="/blue_presentation.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387328581520" ignored="false" />
+    <file path="/MyIterator.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387356417644" ignored="false" />
+    <file path="$PROJECT_DIR$/../../droidremote1 - copia/client/AndroidManifest.xml" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387435954002" ignored="false" />
+    <file path="$PROJECT_DIR$/../../droidremote1 - copia/client/gen/com/josetomas/client/R.java" changelist="c67eb80e-7410-4826-8527-f0495b114f54" time="1387435957958" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +187,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -242,6 +223,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -251,80 +233,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="blue_presentation.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/res/layout/blue_presentation.xml">
-          <provider editor-type-id="text-editor">
-            <state line="118" column="43" selection-start="6464" selection-end="6464" vertical-scroll-proportion="0.0">
+      <file leaf-file-name="MClient.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/MClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="25" selection-start="953" selection-end="953" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer">
+        </entry>
+      </file>
+      <file leaf-file-name="SplashScreen.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/SplashScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="13" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="18" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.7777778">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="initial_conect.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/res/layout/initial_conect.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="39" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Custom.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Custom.java">
+      <file leaf-file-name="droid_control.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/res/layout/droid_control.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="34" selection-start="1715" selection-end="1715" vertical-scroll-proportion="0.6551724">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameControl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/GameControl.java">
+      <file leaf-file-name="splash_screen.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/res/layout/splash_screen.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="23" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Media.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Media.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="42" selection-start="2621" selection-end="2621" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MousePad.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/MousePad.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="24" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Presentation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Presentation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="40" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SkinSelector.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/SkinSelector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="22" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blue_skin_selector.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/res/layout/blue_skin_selector.xml">
-          <provider editor-type-id="text-editor">
-            <state line="31" column="46" selection-start="1738" selection-end="1738" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
         </entry>
@@ -355,13 +322,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/client/res/drawable/blue_full_screen_selector.xml" />
-        <option value="$PROJECT_DIR$/client/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/client/res/layout-land/blue_media.xml" />
-        <option value="$PROJECT_DIR$/client/res/layout/blue_custom2x3.xml" />
-        <option value="$PROJECT_DIR$/client/res/layout/blue_custom3x4.xml" />
-        <option value="$PROJECT_DIR$/client/res/layout/blue_game_control.xml" />
-        <option value="$PROJECT_DIR$/client/res/layout/blue_media.xml" />
         <option value="$PROJECT_DIR$/client/res/layout/blue_mousepad.xml" />
         <option value="$PROJECT_DIR$/client/res/layout/blue_presentation.xml" />
         <option value="$PROJECT_DIR$/client/res/layout/blue_skin_selector.xml" />
@@ -371,6 +331,13 @@
         <option value="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Presentation.java" />
         <option value="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/SkinSelector.java" />
         <option value="$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Custom.java" />
+        <option value="$PROJECT_DIR$/server/src/com/josetomas/server/my_iterator/ShortCuts.csv" />
+        <option value="$PROJECT_DIR$/server/src/com/josetomas/server/my_iterator/KeyBoardIterator.java" />
+        <option value="$PROJECT_DIR$/server/src/com/josetomas/server/my_iterator/MyIterator.java" />
+        <option value="$PROJECT_DIR$/client/src/com/josetomas/client/activities/SplashScreen.java" />
+        <option value="$PROJECT_DIR$/client/src/com/josetomas/client/activities/MClient.java" />
+        <option value="$PROJECT_DIR$/client/res/layout/initial_conect.xml" />
+        <option value="$PROJECT_DIR$/client/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -414,8 +381,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -470,6 +437,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="droidremote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="activities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -497,6 +486,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="toolbarActivities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="droidremote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values-es" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="droidremote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="droidremote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="droidremote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -535,7 +592,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
+    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -547,14 +604,17 @@
       <recent name="com.josetomas.client.activities.toolbarActivities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Adela\Desktop\Nueva carpeta\droidremote\client\res\layout" />
       <recent name="C:\Users\Adela\Desktop\droidremote\client\res\layout-land" />
       <recent name="C:\Users\Adela\Desktop\droidremote\client\res\layout" />
       <recent name="C:\Users\Adela\Desktop\droidremote\server\src\com\josetomas\server\XMLMessage\KeyboardMessage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Adela\Desktop\Nueva carpeta\droidremote\client\res\layout" />
+      <recent name="C:\Users\Adela\Desktop\Nueva carpeta\droidremote\client\res\values-es" />
+      <recent name="C:\Users\Adela\Desktop\Nueva carpeta\droidremote\client\res\values" />
       <recent name="C:\Users\Adela\Desktop\droidremote\client\res\layout" />
       <recent name="C:\Users\Adela\Desktop\droidremote\client\res\drawable" />
-      <recent name="C:\Users\Adela\Desktop\droidremote\client" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.Client">
@@ -682,8 +742,8 @@
     </configuration>
     <configuration default="false" name="Client" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="client" />
-      <option name="ACTIVITY_CLASS" value="com.josetomas.client.activities.Initial_page" />
-      <option name="MODE" value="default_activity" />
+      <option name="ACTIVITY_CLASS" value="com.josetomas.client.activities.SplashScreen" />
+      <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="PREFERRED_AVD" value="" />
@@ -779,7 +839,11 @@
       <created>1387296553738</created>
       <updated>1387296553738</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Blue skin can now be selected.">
+      <created>1387329487964</created>
+      <updated>1387329487964</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -803,11 +867,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1040" height="616" extended-state="6" />
+    <frame x="-8" y="-8" width="1040" height="616" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32617587" sideWeight="0.67102396" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32310838" sideWeight="0.67102396" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.9106754" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889345" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924336" sideWeight="0.6688453" order="7" side_tool="false" content_ui="tabs" />
@@ -817,17 +879,19 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275488" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275488" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24948876" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924336" sideWeight="0.67102396" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39959016" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25051126" sideWeight="0.67102396" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32897604" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29243353" sideWeight="0.6296296" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37037036" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32617587" sideWeight="0.67102396" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32310838" sideWeight="0.67102396" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3267974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -874,7 +938,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Blue skin." />
+    <option name="LAST_COMMIT_MESSAGE" value="Blue skin can now be selected." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -896,6 +960,7 @@
     <MESSAGE value="Green skin." />
     <MESSAGE value="Green skin can now be selected." />
     <MESSAGE value="Blue skin." />
+    <MESSAGE value="Blue skin can now be selected." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -905,138 +970,103 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/res/drawable/blue_pause_selector.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="44" selection-start="276" selection-end="276" vertical-scroll-proportion="0.2735632">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="46" selection-start="2576" selection-end="2576" vertical-scroll-proportion="0.8045977">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/res/layout/blue_custom2x3.xml">
-      <provider editor-type-id="text-editor">
-        <state line="94" column="41" selection-start="4417" selection-end="4417" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/res/layout-land/blue_media.xml">
-      <provider editor-type-id="text-editor">
-        <state line="104" column="50" selection-start="5718" selection-end="5722" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/res/layout/blue_custom3x4.xml">
-      <provider editor-type-id="text-editor">
-        <state line="159" column="41" selection-start="7481" selection-end="7481" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/res/layout/blue_game_control.xml">
-      <provider editor-type-id="text-editor">
-        <state line="147" column="54" selection-start="7771" selection-end="7771" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/res/layout/blue_media.xml">
-      <provider editor-type-id="text-editor">
-        <state line="119" column="58" selection-start="6510" selection-end="6510" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/res/layout/blue_mousepad.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/res/layout/blue_skin_selector.xml">
-      <provider editor-type-id="text-editor">
-        <state line="31" column="46" selection-start="1738" selection-end="1738" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/res/layout/blue_presentation.xml">
-      <provider editor-type-id="text-editor">
-        <state line="118" column="43" selection-start="6464" selection-end="6464" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/GameControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="23" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Media.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="42" selection-start="2621" selection-end="2621" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/MousePad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="24" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="28" column="24" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Presentation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="40" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="33" column="40" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/SkinSelector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="22" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="21" column="22" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Custom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="34" selection-start="1715" selection-end="1715" vertical-scroll-proportion="0.6551724">
+        <state line="45" column="34" selection-start="1715" selection-end="1715" vertical-scroll-proportion="0.41504854" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/GameControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="23" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.4975728" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/toolbarActivities/Media.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="42" selection-start="2621" selection-end="2621" vertical-scroll-proportion="0.7621247" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/com/josetomas/server/my_iterator/KeyBoardIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="65" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.13333334" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/com/josetomas/server/my_iterator/ShortCuts.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="8" selection-start="280" selection-end="280" vertical-scroll-proportion="0.7321016" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/com/josetomas/server/my_iterator/IteratorXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="40" selection-start="2033" selection-end="2033" vertical-scroll-proportion="0.34047619" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/com/josetomas/server/my_iterator/MyIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="15" selection-start="644" selection-end="644" vertical-scroll-proportion="0.7011494" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/res/layout/droid_control.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/res/layout/splash_screen.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/res/layout/initial_conect.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="39" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/MClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="25" selection-start="953" selection-end="953" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/com/josetomas/client/activities/SplashScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="18" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.7777778">
           <folding />
         </state>
       </provider>

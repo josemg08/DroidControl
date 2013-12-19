@@ -9,6 +9,7 @@ import android.widget.SeekBar;
 import android.widget.Spinner;
 import com.josetomas.client.R;
 import com.josetomas.client.activities.toolbarActivities.MousePad;
+import com.josetomas.client.network.AbstractNetworkActivity;
 import com.josetomas.client.xmlMessage.SystemMessage;
 
 

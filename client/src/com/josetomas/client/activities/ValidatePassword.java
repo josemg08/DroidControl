@@ -8,6 +8,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 import com.josetomas.client.R;
+import com.josetomas.client.network.AbstractNetworkActivity;
 import com.josetomas.client.xmlMessage.SystemMessage;
 
 import java.io.UnsupportedEncodingException;

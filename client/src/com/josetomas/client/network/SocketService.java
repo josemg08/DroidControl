@@ -13,72 +13,85 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.InetAddress;
 import java.net.Socket;
+import java.net.SocketException;
 
 public class SocketService extends Service {
     private static final String END_MESSAGE = "\nEND_MESSAGE";
     private static final String DISCONNECT = "DISCONNECT";
-    public static final String TAG_IP = "ip";
-    public static String SERVERIP;
-    public static final int SERVERPORT = 5555;
+    private InetAddress inetAddress;
     private boolean isConnected;
     private PrintWriter toServer = null;
     private BufferedReader fromServer = null;
-    private Socket clientSocket;
-    private boolean isStarted = false;
+
+
+    // Binder given to clients
+    private final IBinder myBinder = new LocalBinder();
 
     @Override
     public IBinder onBind(Intent intent) {
         return myBinder;
     }
 
-    private final IBinder myBinder = new LocalBinder();
-
-    public class LocalBinder extends Binder {
-
-        public SocketService getService() {
-            return SocketService.this;
-        }
+    public void setInetAddress(InetAddress inetAddress) {
+        this.inetAddress = inetAddress;
     }
 
-    public void initStreamConnection(Socket clSocket) {
-        try {
-            this.fromServer = new BufferedReader(new InputStreamReader(clSocket.getInputStream()));
-            this.toServer = new PrintWriter(clSocket.getOutputStream(), true);
-        }  catch (IOException e) {
-            Log.e("TCP", "S: Error", e);
-            //TODO
+    public InetAddress getInetAddress() {
+        return inetAddress;
+    }
+
+
+    public class LocalBinder extends Binder {
+        SocketService getService() {
+            // Return this instance of LocalService so clients can call public methods
+            return SocketService.this;
         }
-        this.clientSocket = clSocket;
-        isConnected = true;
-        Log.i("Client Socket: ", "Yes");
     }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         //Check if the service was already started
-        if (this.isStarted) return START_STICKY;
-
+        //if (this.isStarted) return START_STICKY;
+//        Toast.makeText(this, "Entro en SocketService", Toast.LENGTH_LONG).show();
         super.onStartCommand(intent, flags, startId);
         Toast.makeText(this, "Service created", Toast.LENGTH_LONG).show();
-        isStarted = true;
+
 //        intTCPConnection();
 
         return START_STICKY;
     }
 
+    public void initStreamConnection(Socket clSocket) {
+        try {
+
+            this.fromServer = new BufferedReader(new InputStreamReader(clSocket.getInputStream()));
+            this.toServer = new PrintWriter(clSocket.getOutputStream(), true);
+        } catch (IOException e) {
+            Log.e("TCP", "S: Error", e);
+            //TODO
+        }
+
+        try {
+            clSocket.setSendBufferSize(32768);
+            Log.i("SOCKET", "SendBufferSize: " + clSocket.getSendBufferSize());
+        } catch (SocketException e) {
+            e.printStackTrace();
+        }
+        isConnected = true;
+        Log.i("Client Socket: ", "Yes");
+    }
+
     public void intTCPConnection(String hostAddress) {
         ThreadNetworkInitializer connect2 = new ThreadNetworkInitializer(this);
         connect2.execute(hostAddress);
+
         Toast.makeText(this, "Connected to ip: " + hostAddress, Toast.LENGTH_LONG).show();
     }
 
     public InetAddress initUDPConnection() {
-        InetAddress serverAddress;
-        UDPClientConnection udpConnection = new UDPClientConnection();
-        serverAddress = udpConnection.broadCast();
-        if(serverAddress != null) {
-            return serverAddress;
-        } else return null;
+        UDPClientConnection searchNetworks = new UDPClientConnection(this);
+        searchNetworks.execute();
+        return inetAddress;
     }
 
 //    public void setClientSocket(Socket clientSocket) {
@@ -114,7 +127,7 @@ public class SocketService extends Service {
                 //TODO
             }
         } else {
-            Log.e("Comunicacion", "Era null");
+            Log.e("SocketService", "Era null");
             //Toast.makeText(this,"Problem with te connection", Toast.LENGTH_LONG).show();
         }
     }
@@ -139,6 +152,14 @@ public class SocketService extends Service {
             //TODO
         }
         return result;
+    }
+
+    public void updateUI(InetAddress inetAddress) {
+
+    }
+
+    public void setConnected(boolean connected) {
+        isConnected = connected;
     }
 }
 

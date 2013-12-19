@@ -1,19 +1,32 @@
 package com.josetomas.client.network;
 
 
+import android.os.AsyncTask;
 import android.util.Log;
+import com.josetomas.client.activities.MClient;
 
 import java.io.IOException;
 import java.net.*;
+import java.nio.channels.IllegalBlockingModeException;
 import java.util.Enumeration;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class UDPClientConnection {
+public class UDPClientConnection extends AsyncTask<String, Void, UdpResult>{
+    private static final String CONNECTION = "CONNECTION";
+    private static final String NETWORK_ERROR = "Network Error: ";
     private static final String REQUEST_MESSAGE = "DISCOVER_FUIFSERVER_REQUEST";
     private static final String RESPONSE_MESSAGE = "DISCOVER_FUIFSERVER_RESPONSE";
-    DatagramSocket c;
-    public InetAddress broadCast() {
+    private NetworkException error = null;
+    private SocketService service;
+
+    public UDPClientConnection(SocketService service) {
+        this.service = service;
+    }
+
+    private InetAddress broadCast() {
+
+        DatagramSocket c = null;
         try {
             //Open a random port to send the package
             c = new DatagramSocket();
@@ -26,8 +39,14 @@ public class UDPClientConnection {
                 DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, InetAddress.getByName("255.255.255.255"), 8888);
                 c.send(sendPacket);
                 Log.i(getClass().getName(), ">>> Request packet sent to: 255.255.255.255 (DEFAULT)");
-            } catch (Exception e) {
-                Log.e("Error", e.getMessage());
+            } catch (SocketException e) {
+                error = new NetworkException(e.getMessage(), e);
+            } catch (IOException e) {
+                error = new NetworkException(e.getMessage(), e);
+            } catch (IllegalBlockingModeException e) {
+                error = new NetworkException(e.getMessage(), e);
+            } catch (IllegalArgumentException e) {
+                error = new NetworkException(e.getMessage(), e);
             }
 
             // Broadcast the message over all the network interfaces
@@ -49,8 +68,14 @@ public class UDPClientConnection {
                     try {
                         DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, broadcast, 8888);
                         c.send(sendPacket);
-                    } catch (Exception e) {
-                        Log.e("Error sending", e.getMessage());
+                    } catch (SocketException e) {
+                        error = new NetworkException(e.getMessage(), e);
+                    } catch (IOException e) {
+                        error = new NetworkException(e.getMessage(), e);
+                    } catch (IllegalBlockingModeException e) {
+                        error = new NetworkException(e.getMessage(), e);
+                    } catch (IllegalArgumentException e) {
+                        error = new NetworkException(e.getMessage(), e);
                     }
 
                     Log.i(getClass().getName(), ">>> Request packet sent to: " + broadcast.getHostAddress() + "; Interface: " + networkInterface.getDisplayName());
@@ -78,7 +103,28 @@ public class UDPClientConnection {
             c.close();
         } catch (IOException ex) {
             Logger.getLogger(UDPClientConnection.class.getName()).log(Level.SEVERE, null, ex);
+            error = new NetworkException(ex.getMessage(), ex);
         }
         return null;
+    }
+
+    @Override
+    protected UdpResult doInBackground(String... strings) {
+        InetAddress result = broadCast();
+        return new UdpResult(result, error);
+    }
+
+    @Override
+    protected void onPostExecute(UdpResult result) {
+        if (result.hasError()) {
+            Log.e(CONNECTION, NETWORK_ERROR + result.getError().getMessage());
+        } else {
+            service.updateUI(result.getInetAddress());
+
+
+            MClient mClient = (MClient) MClient.getMyContext();
+            mClient.setInetaddress(result.getInetAddress());
+//            Log.i(CONNECTION, SUCCESSFUL_CONN);
+        }
     }
 }

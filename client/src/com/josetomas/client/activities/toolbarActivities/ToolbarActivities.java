@@ -7,7 +7,7 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import com.josetomas.client.xmlMessage.keyboardMessage.CharacterMessage;
-import com.josetomas.client.activities.AbstractNetworkActivity;
+import com.josetomas.client.network.AbstractNetworkActivity;
 import com.josetomas.client.activities.Options;
 import com.josetomas.client.xmlMessage.keyboardMessage.ShortCutMessage;
 

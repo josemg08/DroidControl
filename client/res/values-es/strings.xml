@@ -41,7 +41,8 @@
     <string name="Button23">Button23</string>
     <string name="searchNetworks">Buscar</string>
     <string name="exit_question">¿Está seguro?</string>
-    <string name="skins">Skins</string> <!-- No se me ocurre una traduccion -->
+    <string name="skins">Skins</string>
+    <!-- No se me ocurre una traduccion -->
     <string name="up">Arriba</string>
     <string name="down">Abajo</string>
     <string name="pause">Pausa</string>
@@ -56,4 +57,18 @@
     <string name="custom">Personalizada</string>
     <string name="options">Opciones</string>
     <string name="passValidateTitle">Validación de contraseña</string>
+    <string name="full_screen">Pantalla completa</string>
+    <string name="finish">Terminar</string>
+    <string name="timer">Reloj</string>
+    <string name="change_bttn_name">Cambiar nombre del botón</string>
+    <string name="ready">Listo!</string>
+    <string name="new_name">Nuevo nombre</string>
+    <string name="save_changes">Guardar</string>
+    <string name="track_sensiv">Sensibilidad mouse</string>
+    <string name="game_ctrl_sensiv">Sensibilidad Joystick</string>
+    <string name="vol_up">Subir Volumen</string>
+    <string name="vol_down">Bajar Volumen</string>
+    <string name="messageHowConnect">Para conectarse introduzca la IP de su computadora.</string>
+    <string name="wayToConnect">Manually</string>
+
 </resources>

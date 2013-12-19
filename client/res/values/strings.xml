@@ -56,4 +56,18 @@
     <string name="gameCtrl">Game Control</string>
     <string name="custom">Custom</string>
     <string name="passValidateTitle">Password validation</string>
+    <string name="full_screen">Full screen</string>
+    <string name="finish">Finish</string>
+    <string name="timer">Timer</string>
+    <string name="change_bttn_name">Change button name</string>
+    <string name="ready">Ready!</string>
+    <string name="new_name">add new name</string>
+    <string name="save_changes">Save changes</string>
+    <string name="track_sensiv">Trackpad sensibility</string>
+    <string name="game_ctrl_sensiv">Game control sensibility</string>
+    <string name="vol_up">Vol Up</string>
+    <string name="vol_down">Vol Down</string>
+    <string name="messageHowConnect">Para conectarse introduzca la IP de su computadora.</string>
+    <string name="wayToConnect">Manually</string>
+
 </resources>

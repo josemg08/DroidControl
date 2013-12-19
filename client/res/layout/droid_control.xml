@@ -6,9 +6,9 @@
               android:layout_height="match_parent">
 
     <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="149dp"
-            android:text="Droid Control"
-            android:id="@+id/DroidControl" android:layout_gravity="center" android:textColor="#ffffff"
-            android:textSize="60dp" android:layout_marginTop="86dp"/>
+        android:layout_width="wrap_content"
+        android:layout_height="149dp"
+        android:text="Droid Control"
+        android:id="@+id/DroidControl" android:layout_gravity="center" android:textColor="#ffffff"
+        android:textSize="60dp" android:layout_marginTop="86dp"/>
 </LinearLayout>
