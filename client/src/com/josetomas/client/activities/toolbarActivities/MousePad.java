@@ -148,6 +148,16 @@ public class MousePad extends ToolbarActivities {
 
     }
 
+    public void clickLeft(View view){
+        socketService.sendMessage(parseXML.buildXMLMessage
+                (new GestureMessage(GestureMessage.GestureTypes.LEFT_CLICK)));
+    }
+
+    public void clickRight(View view){
+        socketService.sendMessage(parseXML.buildXMLMessage
+                (new GestureMessage(GestureMessage.GestureTypes.RIGHT_CLICK)));
+    }
+
     //if the difference between the first distance between fingers and the new one is positive
     //(converting all to positive) the zoom is positive otherwise negative
     private void zoom(float distanceBetween){
