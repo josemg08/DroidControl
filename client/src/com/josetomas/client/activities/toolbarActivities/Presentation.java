@@ -9,9 +9,7 @@ import com.josetomas.client.xmlMessage.keyboardMessage.ShortCutMessage;
 import android.os.SystemClock;
 
 public class Presentation extends ToolbarActivities {
-    public static final String LEFT = "LEFT";
-    public static final String RIGHT = "RIGHT";
-    private Button arrowLeft, arrowRight;
+    //private Button arrowLeft, arrowRight;
     private Chronometer chronometer;
     private boolean chronometerGoing = false;
 
@@ -35,16 +33,27 @@ public class Presentation extends ToolbarActivities {
             setContentView(R.layout.red_presentation);
         }
 
-        arrowLeft = (Button) findViewById(R.id.ArrowLeftButton);
-        arrowRight = (Button) findViewById(R.id.arrowRightButton);
+        //arrowLeft = (Button) findViewById(R.id.ArrowLeftButton);
+        //arrowRight = (Button) findViewById(R.id.arrowRightButton);
         chronometer = (Chronometer) findViewById(R.id.chronometer);
 
         doBindService();
     }
 
     public void changeSlide(View view) {
-        String nameButton = arrowLeft.isPressed() ? "LEFT" : "RIGHT";
+        /*String nameButton = arrowLeft.isPressed() ? "LEFT" : "RIGHT";
         ShortCutMessage shortCutSms = new ShortCutMessage(nameButton);
+        socketService.sendMessage(parseXML.buildXMLMessage(shortCutSms));
+        */
+    }
+
+    public void clickRightArrow (View view){
+        ShortCutMessage shortCutSms = new ShortCutMessage("RIGHT");
+        socketService.sendMessage(parseXML.buildXMLMessage(shortCutSms));
+    }
+
+    public void clickLeftArrow (View view){
+        ShortCutMessage shortCutSms = new ShortCutMessage("LEFT");
         socketService.sendMessage(parseXML.buildXMLMessage(shortCutSms));
     }
 

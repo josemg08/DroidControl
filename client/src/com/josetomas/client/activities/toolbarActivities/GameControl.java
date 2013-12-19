@@ -8,6 +8,7 @@ import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.view.View;
 import com.josetomas.client.R;
+import com.josetomas.client.xmlMessage.keyboardMessage.ShortCutLongPressMessage;
 import com.josetomas.client.xmlMessage.keyboardMessage.ShortCutMessage;
 
 public class GameControl extends ToolbarActivities implements SensorEventListener {
@@ -104,18 +105,30 @@ public class GameControl extends ToolbarActivities implements SensorEventListene
     }
 
     private void up() {
-        socketService.sendMessage(parseXML.buildXMLMessage(new ShortCutMessage(UP)));
+        socketService.sendMessage(parseXML.buildXMLMessage(
+                new ShortCutLongPressMessage(DOWN, false)));
+        socketService.sendMessage(parseXML.buildXMLMessage(
+                new ShortCutLongPressMessage(UP, true)));
     }
     private void down() {
-        socketService.sendMessage(parseXML.buildXMLMessage(new ShortCutMessage(DOWN)));
+        socketService.sendMessage(parseXML.buildXMLMessage(
+                new ShortCutLongPressMessage(UP, false)));
+        socketService.sendMessage(parseXML.buildXMLMessage(
+                new ShortCutLongPressMessage(DOWN, true)));
     }
 
     private void left() {
-        socketService.sendMessage(parseXML.buildXMLMessage(new ShortCutMessage(LEFT)));
+        socketService.sendMessage(parseXML.buildXMLMessage(
+                new ShortCutLongPressMessage(RIGHT, false)));
+        socketService.sendMessage(parseXML.buildXMLMessage(
+                new ShortCutLongPressMessage(LEFT, true)));
     }
 
     private void right() {
-        socketService.sendMessage(parseXML.buildXMLMessage(new ShortCutMessage(RIGHT)));
+        socketService.sendMessage(parseXML.buildXMLMessage(
+                new ShortCutLongPressMessage(LEFT, false)));
+        socketService.sendMessage(parseXML.buildXMLMessage(
+                new ShortCutLongPressMessage(RIGHT, true)));
     }
 
 }

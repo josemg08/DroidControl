@@ -60,7 +60,7 @@
                     style="@style/button_black"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
-                    android:onClick="changeSlide"
+                    android:onClick="clickRightArrow"
                     android:id="@+id/arrowLeftButton"
                     android:layout_weight="1"
                     android:layout_marginRight="10dp" android:background="@drawable/black_arrow_left_square_selector"
@@ -113,7 +113,7 @@
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:onClick="changeSlide"
+                android:onClick="clickRightArrow"
                 android:id="@+id/arrowRightButton"
                 android:background="@drawable/black_arrow_rigth_square_selector"
                 android:src="@drawable/black_arrow_rigth_square_selector"

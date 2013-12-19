@@ -47,7 +47,7 @@ public class KeyBoardIterator extends MyIterator {
 
     //This method searchs in the shortCut's file and ones it founds the shortCut name
     //the next token after the "," will be the shortCut code, then it implements that code.
-    private void shortCutPress(String shortCut) throws Exception {
+    private void shortCutPress(String shortCut) throws IOException {
         FileReader reader = new FileReader("server\\src\\com\\josetomas\\server\\my_iterator\\ShortCuts.csv");
         BufferedReader shortCutFile = new BufferedReader(reader);
         String line = shortCutFile.readLine();
@@ -67,7 +67,7 @@ public class KeyBoardIterator extends MyIterator {
                         listKeys[i] = Integer.parseInt(tokenizer.nextToken());
                         robot.keyPress(listKeys[i]);
                     }
-                    for(int i=keys-1; i>0; i--){
+                    for(int i=keys-1; i>-1; i--){
                         robot.keyRelease(listKeys[i]);
                     }
                 }
@@ -82,6 +82,76 @@ public class KeyBoardIterator extends MyIterator {
         }
 
         reader.close();
+    }
+
+    public void press(String shortCut) throws IOException {
+        FileReader reader = new FileReader("server\\src\\com\\josetomas\\server\\my_iterator\\ShortCuts.csv");
+        BufferedReader shortCutFile = new BufferedReader(reader);
+        String line = shortCutFile.readLine();
+        StringTokenizer tokenizer;
+
+        while (line != null) {
+            tokenizer = new StringTokenizer(line, ",");
+
+            //search's for the shortcut name in the csv, after the next ',' will be
+            //the number of keys to be pressed, after that all the keys separated by ','
+            while (tokenizer.hasMoreTokens()) {
+                String shortCutLine = tokenizer.nextToken();
+                if (shortCutLine.equals(shortCut)) {
+                    int keys = Integer.parseInt(tokenizer.nextToken());
+                    int[] listKeys = new int[keys];
+                    for(int i=0; i<keys; i++){
+                        listKeys[i] = Integer.parseInt(tokenizer.nextToken());
+                    }
+                    for(int i=keys-1; i>-1; i--){
+                        robot.keyRelease(listKeys[i]);
+                    }
+                }
+            }
+
+            try {
+                line = shortCutFile.readLine();
+            } catch (Exception e) {
+                //TODO
+                line = null;
+            }
+        }
+
+        reader.close();
+    }
+
+    public void release(String shortCut) throws IOException {
+        FileReader reader = new FileReader("server\\src\\com\\josetomas\\server\\my_iterator\\ShortCuts.csv");
+        BufferedReader shortCutFile = new BufferedReader(reader);
+        String line = shortCutFile.readLine();
+        StringTokenizer tokenizer;
+
+        while (line != null) {
+        tokenizer = new StringTokenizer(line, ",");
+
+        //search's for the shortcut name in the csv, after the next ',' will be
+        //the number of keys to be pressed, after that all the keys separated by ','
+        while (tokenizer.hasMoreTokens()) {
+            String shortCutLine = tokenizer.nextToken();
+            if (shortCutLine.equals(shortCut)) {
+                int keys = Integer.parseInt(tokenizer.nextToken());
+                int[] listKeys = new int[keys];
+                for(int i=0; i<keys; i++){
+                    listKeys[i] = Integer.parseInt(tokenizer.nextToken());
+                    robot.keyPress(listKeys[i]);
+                }
+            }
+        }
+
+        try {
+            line = shortCutFile.readLine();
+        } catch (Exception e) {
+            //TODO
+            line = null;
+        }
+    }
+
+    reader.close();
     }
 
     //Uses an auxiliary file to copy all the lines in the shortCut file except for the

@@ -1,6 +1,7 @@
 package com.josetomas.client.xmlMessage;
 
 import com.josetomas.client.xmlMessage.keyboardMessage.CharacterMessage;
+import com.josetomas.client.xmlMessage.keyboardMessage.ShortCutLongPressMessage;
 import com.josetomas.client.xmlMessage.keyboardMessage.ShortCutMessage;
 import com.josetomas.client.xmlMessage.mouseMessage.CoordinatesMessage;
 import com.josetomas.client.xmlMessage.mouseMessage.GestureMessage;
@@ -15,6 +16,7 @@ public class ParseXML {
         xstream.alias("CharacterMessage", CharacterMessage.class);
         xstream.alias("CoordinatesMessage", CoordinatesMessage.class);
         xstream.alias("ShortCutMessage", ShortCutMessage.class);
+        xstream.alias("ShortCutLongPressMessage", ShortCutLongPressMessage.class);
         xstream.alias("SystemMessage", SystemMessage.class);
         xstream.alias("GestureMessage", GestureMessage.class);
 //        xstream.alias("Password", SystemMessage.SystemMessageTypes.class);
@@ -34,6 +36,8 @@ public class ParseXML {
             return (CharacterMessage) xstream.fromXML(xml);
         } else if (xml.contains("ShortCutMessage")) {
             return (ShortCutMessage) xstream.fromXML(xml);
+        } else if (xml.contains("ShortCutLongPressMessage")) {
+            return (ShortCutLongPressMessage) xstream.fromXML(xml);
         } else if (xml.contains("GestureMessage")) {
             return (GestureMessage) xstream.fromXML(xml);
         } else {

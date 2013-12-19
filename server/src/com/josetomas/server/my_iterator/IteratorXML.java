@@ -1,5 +1,6 @@
 package com.josetomas.server.my_iterator;
 
+import com.josetomas.server.xmlMessage.keyboardMessage.ShortCutLongPressMessage;
 import com.josetomas.server.my_iterator.mouse.TouchScreenIterator;
 import com.josetomas.server.my_iterator.mouse.TrackPadIterator;
 import com.josetomas.server.xmlMessage.keyboardMessage.CharacterMessage;
@@ -10,6 +11,7 @@ import com.josetomas.server.xmlMessage.mouseMessage.GestureMessage;
 import com.josetomas.server.xmlMessage.SystemMessage;
 
 import java.awt.*;
+import java.io.IOException;
 
 public class IteratorXML extends MyIterator {
     private TrackPadIterator trackPadIterator;
@@ -46,6 +48,24 @@ public class IteratorXML extends MyIterator {
                     //TODO
 
                 }
+                break;
+
+            case LONGSHORTCUT:
+                if(((ShortCutLongPressMessage) message).getPress()){
+                    try {
+                        keyBoardIterator.press(((ShortCutLongPressMessage) message).getShortCut());
+                    } catch (IOException e) {
+                        e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                    }
+                }
+                else{
+                    try {
+                        keyBoardIterator.release(((ShortCutLongPressMessage) message).getShortCut());
+                    } catch (IOException e) {
+                        e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                    }
+                }
+
                 break;
 
             case GESTURE:
