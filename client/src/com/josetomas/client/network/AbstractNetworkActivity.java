@@ -1,3 +1,8 @@
+/*
+Develop by Jose Gonzalez & Tomas Najun
+2013 - Argentina
+*/
+
 package com.josetomas.client.network;
 
 import android.app.Activity;

@@ -1,3 +1,8 @@
+/*
+Develop by Jose Gonzalez
+2013 - Argentina
+*/
+
 package com.josetomas.client.xmlMessage.mouseMessage;
 
 import com.josetomas.client.xmlMessage.MessageTypes;

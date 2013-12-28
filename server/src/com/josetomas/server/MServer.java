@@ -1,3 +1,8 @@
+/*
+Develop by Jose Gonzalez & Tomas Najun
+2013 - Argentina
+*/
+
 package com.josetomas.server;
 
 import com.josetomas.server.my_iterator.IteratorXML;

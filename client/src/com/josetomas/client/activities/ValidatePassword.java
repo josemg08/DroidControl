@@ -1,3 +1,8 @@
+/*
+Develop by Tomas Najun
+2013 - Argentina
+*/
+
 package com.josetomas.client.activities;
 
 import android.os.Bundle;

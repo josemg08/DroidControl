@@ -1,3 +1,8 @@
+/*
+Develop by Jose Gonzalez & Tomas Najun
+2013 - Argentina
+*/
+
 package com.josetomas.client.xmlMessage.keyboardMessage;
 
 import com.josetomas.client.xmlMessage.Message;

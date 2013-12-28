@@ -1,3 +1,8 @@
+/*
+Develop by Jose Gonzalez
+2013 - Argentina
+*/
+
 package com.josetomas.server.my_iterator.mouse;
 
 import com.josetomas.server.my_iterator.MyIterator;

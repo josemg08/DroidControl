@@ -6,11 +6,9 @@ import android.content.DialogInterface;
 import com.josetomas.client.R;import java.lang.Override;import java.lang.String;
 
 /**
- * Created with IntelliJ IDEA.
  * User: Tomas Najun
  * Date: 13/12/13
  * Time: 05:03
- * To change this template use File | Settings | File Templates.
  */
 public class ErrorDialog {
 

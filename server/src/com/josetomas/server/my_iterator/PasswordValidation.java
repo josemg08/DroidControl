@@ -1,3 +1,8 @@
+/*
+Develop by Tomas Najun
+2013 - Argentina
+*/
+
 package com.josetomas.server.my_iterator;
 
 import com.josetomas.server.MServer;

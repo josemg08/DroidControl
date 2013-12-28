@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="apk" build-on-make="true" name="DroidControl">
+    <output-path>$PROJECT_DIR$/out/artifacts/DroidControl</output-path>
+    <properties id="android-properties">
+      <options>
+        <option name="keyStoreUrl" value="file://" />
+        <option name="proGuardCfgFileUrl" value="file://$PROJECT_DIR$/client/proguard-project.txt" />
+      </options>
+    </properties>
+    <root id="archive" name="DroidControl.apk">
+      <element id="android-final-package" facet="client/android/Android" />
+      <element id="module-output" name="client" />
+      <element id="file-copy" path="$PROJECT_DIR$/client/AndroidManifest.xml" />
+    </root>
+  </artifact>
+</component>

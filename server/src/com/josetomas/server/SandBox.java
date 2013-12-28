@@ -5,11 +5,9 @@ import java.util.Locale;
 import java.util.ResourceBundle;
 
 /**
- * Created with IntelliJ IDEA.
  * User: Tomas Najun
  * Date: 16/07/13
  * Time: 18:30
- * To change this template use File | Settings | File Templates.
  */
 public class SandBox {
     static String displayValue(Locale currentLocale, String key) {
