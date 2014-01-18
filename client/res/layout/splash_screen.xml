@@ -1,8 +1,3 @@
-<!--
-Develop by Tomas Najun
-2013 - Argentina
--->
-
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -19,3 +14,8 @@ Develop by Tomas Najun
         android:src="@drawable/logo"/>
 
 </LinearLayout>
+
+        <!--
+        Develop by Tomas Najun
+        2013 - Argentina
+        -->

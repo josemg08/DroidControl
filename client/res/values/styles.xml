@@ -1,8 +1,3 @@
-<!--
-Develop by Jose Gonzalez
-2013 - Argentina
--->
-
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="app_style" parent="@android:style/Theme.NoTitleBar">
@@ -62,3 +57,8 @@ Develop by Jose Gonzalez
         <item name="android:textStyle">bold</item>
     </style>
 </resources>
+
+        <!--
+        Develop by Jose Gonzalez
+        2013 - Argentina
+        -->

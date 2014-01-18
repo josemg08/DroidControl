@@ -1,8 +1,3 @@
-<!--
-Develop by Jose Gonzalez & Tomas Najun
-2013 - Argentina
--->
-
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -15,3 +10,8 @@ Develop by Jose Gonzalez & Tomas Najun
             android:layout_height="fill_parent"
             android:id="@+id/imageButton" android:background="@drawable/logo" android:onClick="goToMain"/>
 </LinearLayout>
+
+        <!--
+        Develop by Jose Gonzalez & Tomas Najun
+        2013 - Argentina
+        -->

@@ -1,8 +1,3 @@
-<!--
-Develop by Jose Gonzalez
-2013 - Argentina
--->
-
 <?xml version="1.0" encoding="utf-8"?>
 
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
@@ -12,3 +7,8 @@ Develop by Jose Gonzalez
     <item
             android:drawable="@drawable/red_full_screen" />
 </selector>
+
+        <!--
+        Develop by Jose Gonzalez
+        2013 - Argentina
+        -->

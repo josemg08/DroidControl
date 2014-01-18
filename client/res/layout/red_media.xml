@@ -1,8 +1,3 @@
-<!--
-Develop by Jose Gonzalez
-2013 - Argentina
--->
-
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -128,3 +123,8 @@ Develop by Jose Gonzalez
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
+
+        <!--
+        Develop by Jose Gonzalez
+        2013 - Argentina
+        -->
